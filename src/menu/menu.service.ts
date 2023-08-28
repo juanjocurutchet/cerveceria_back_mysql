@@ -28,4 +28,10 @@ export class MenuService {
     const parsed = res.json();
     return parsed;
   }
+
+      private async setId(): Promise<number>{
+        const menu=await this.getMenu();
+        const id = menu.pop().id + 1;
+        return id;
+    }
 }
