@@ -8,4 +8,9 @@ export class MenuService {
         const parsed = await res.json();
         return parsed;
     }
+  
+    async getMenu(): Promise<Menu[]> {
+         const res = await fetch(BASE_URL);
+         const parsed = await res.json();
+         return parsed;    }
 }

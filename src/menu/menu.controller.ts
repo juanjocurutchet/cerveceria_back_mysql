@@ -9,4 +9,8 @@ export class MenuController {
     getMenuById(@Param('id') id:number): Promise<Menu>{
         return this.menuService.getMenuById(id);
     }
+    @Get()
+    getMenu(): Promise<Menu[]>{
+        return this.menuService.getMenu();
+    }
 }
