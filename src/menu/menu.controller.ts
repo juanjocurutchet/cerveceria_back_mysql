@@ -5,4 +5,8 @@ import { Menu } from './menu.interface';
 @Controller('menu')
 export class MenuController {
     constructor(private readonly menuService: MenuService){}
+    @Get('/:id')
+    getMenuById(@Param('id') id:number): Promise<Menu>{
+        return this.menuService.getMenuById(id);
+    }
 }
