@@ -1,12 +1,11 @@
 {
   "menu": [
     {
-
       "title": "Pizza con jamón crudo ",
       "category": "Sin TACC",
       "img": "https://www.recetaslamasia.es/wp-content/uploads/2013/12/singluten_18.jpg",
       "description": "Pizza elaborada con alimentos aprobados por la ANMAT y a la ACELA",
-      "Ingredients":"Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
+      "Ingredients": "Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
       "price": "$ 3500",
       "valoration": "9",
       "tipo": "Comida",
@@ -17,7 +16,7 @@
       "category": "Sin TACC",
       "img": "https://www.recetaslamasia.es/wp-content/uploads/2016/07/singluten_7.jpg",
       "description": "Hamburguesa elaborada con alimentos aprobados por la ANMAT y a ACELA",
-      "Ingredients":"Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
+      "Ingredients": "Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
       "price": "$ 2500",
       "valoration": "10",
       "tipo": "Comida",
@@ -28,7 +27,7 @@
       "category": "Sin TACC",
       "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
       "description": "Milanesa con puré elaborada con alimentos aprobados por la ANMAT y a ACELA",
-      "Ingredients":"Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
+      "Ingredients": "Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
       "price": "$ 2200",
       "valoration": "10",
       "tipo": "Comida",
@@ -39,7 +38,7 @@
       "category": "Sin TACC",
       "img": "https://jetextramar.com/wp-content/uploads/2021/07/empresa-de-alimentos-receta-de-patata-casera.jpg",
       "description": "Filet de merluza con papas fritas elaborada con alimentos aprobados por la ANMAT y a ACELA",
-      "Ingredients":"Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
+      "Ingredients": "Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
       "price": "$ 2700",
       "valoration": "10",
       "tipo": "Comida",
@@ -142,6 +141,61 @@
       "ingredients": "La EX1 IPA Sevebrau, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
       "price": "$500",
       "valoration": "9",
+      "tipo": "bebida"
+    },
+    {
+      "id": 10,
+      "title": "Agua Mineral Green Water",
+      "category": "Agua",
+      "img": "https://grpinto.wixsite.com/aquacrystalline/post/aguas-minerales-premium-hechas-en-chile",
+      "descripción": "El agua mineral de manantial Green Water, nace de un proceso de filtración natural, infiltrándose al corazón de la montaña y reposando en sus profundidades hace miles de años, para luego surgir pura y mineralizada",
+      "ingredients": "Contiene sodio, potasio, calcio, magnesio, cloro, azufre y fósforo, con grado de mineralización inferior a 1,5 gramos por litro.",
+      "price": "$500",
+      "valoration": "10",
+      "tipo": "bebida"
+    },
+    {
+      "id": 11,
+      "title": "Vino Tinto Green Wine",
+      "category": "Vino",
+      "img": "https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg",
+      "descripción": "Color rojo violáceo intenso. De complejos aromas a frutas rojas, con delicados toques de madera. Suave en boca, equilibrado, con notas de ciruelas y guindas. Ideal para acompañar carnes rojas, pastas o pescados y carnes blancas con salsas especiadas",
+      "ingredients": "Calorías 85, Grasas totales 0 g, Ácidos grasos saturados 0 g, Colesterol 0 mg, Sodio 4 mg, Potasio 127 mg, Carbohidratos 2.6 g, Fibra alimentaria 0 g, Azúcares 0.6 g, Proteínas 0.1 g, Vitamina C 0 mg, Calcio 8 mg, Hierro 0.5 mg, Vitamina D 0 IU, Vitamina B6 0.1 mg, Vitamina B12 0 µg, Magnesio 12 mg",
+      "price": "$1500",
+      "valoration": "8",
+      "tipo": "bebida"
+    },
+    {
+      "id": 12,
+      "title": "Cerveza Green Tacc",
+      "category": "Cerveza",
+      "img": "https://rubenisarria.com/marcas-cervezas-sin-gluten/",
+      "descripción": "Aroma muy interesante sus notas son dulces a plátano, no a la cascara sino a la fruta, con los aromas también a malta y a lúpulo floral",
+      "ingredients": "Sorgo malteado, Cáscara de arroz, Enzimas, Levadura Lager, Lúpulo, Irish moss.",
+      "price": "$700",
+      "valoration": "10",
+      "tipo": "bebida"
+    },
+    {
+      "id": 13,
+      "title": "Cerveza IPA Green Beer",
+      "category": "Cerveza",
+      "img": "https://installbeer.com/cdn/shop/articles/cd9e36b9c5a1f1089bcbd5f310fb04d5-823438_1200x.jpg?v=1666620161",
+      "descripción": "Cerveza de alta graduación alcohólica (entre 5º y 7º) y color ámbar, caracterizada por su amargor (contiene a partir de 40 IBU), sus aromas intensos y una alta concentración de lúpulos",
+      "ingredients": "La IPA Green Beer, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
+      "price": "$500",
+      "valoration": "9",
+      "tipo": "bebida"
+    },
+    {
+      "id": 14,
+      "title": "Cerveza Pale Ale Green Beer",
+      "category": "Cerveza",
+      "img": "https://capacitacioneselmolino.com/producto/cervezas-rubias-4/",
+      "descripción": "Cerveza de color amarillo dorado intenso, determinado por el uso de maltas pálidas (pale) sin tueste, amarillo pálido del propio cereal.",
+      "ingredients": "Malta Maris Otter, Lupulo Amarillo, Levadura Nottingham",
+      "price": "$900",
+      "valoration": "10",
       "tipo": "bebida"
     }
   ]
