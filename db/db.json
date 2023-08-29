@@ -1,14 +1,48 @@
 {
   "menu": [
     {
-      "title": "string",
-      "category": "string",
-      "img": "string",
-      "description": "string",
-      "price": "string",
-      "valoration": "string",
-      "tipo": "string",
-      "id": 1
+      "title": "Pizza con jamón crudo ",
+      "category": "Sin TACC",
+      "img": "https://www.recetaslamasia.es/wp-content/uploads/2013/12/singluten_18.jpg",
+      "description": "Pizza elaborada con alimentos aprobados por la ANMAT y a la ACELA",
+      "Ingredients":"Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
+      "price": "$ 3500",
+      "valoration": "9",
+      "tipo": "Comida",
+      "id": 20
+    },
+    {
+      "title": "Hamburguesa simple ",
+      "category": "Sin TACC",
+      "img": "https://www.recetaslamasia.es/wp-content/uploads/2016/07/singluten_7.jpg",
+      "description": "Hamburguesa elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "Ingredients":"Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
+      "price": "$ 2500",
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 21
+    },
+    {
+      "title": "Milanesa con puré ",
+      "category": "Sin TACC",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Milanesa con puré elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "Ingredients":"Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
+      "price": "$ 2200",
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 22
+    },
+    {
+      "title": "Milanesa de merluza con papas fritas ",
+      "category": "Sin TACC",
+      "img": "https://jetextramar.com/wp-content/uploads/2021/07/empresa-de-alimentos-receta-de-patata-casera.jpg",
+      "description": "Filet de merluza con papas fritas elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "Ingredients":"Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
+      "price": "$ 2700",
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 23
     }
   ]
 }
