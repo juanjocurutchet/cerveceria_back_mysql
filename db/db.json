@@ -5,10 +5,99 @@
       "category": "string",
       "img": "string",
       "description": "string",
+      "ingredients": "string",
       "price": "string",
       "valoration": "string",
       "tipo": "string",
       "id": 1
+    },
+    {
+      "title": "Milanesa con pure",
+      "category": "Menu",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Las clásicas y siempre ricas milanesas de carne acompañadas con puré. Elegidas por toda la familia.",
+      "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
+      "price": 2200,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 2
+    },
+    {
+      "title": "Ñoquis con Salsa Boloñesa",
+      "category": "Menu",
+      "img": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg",
+      "description": "Cómo hacer ñoquis con salsa boloñesa de manera fácil y con fotos del paso a paso. Receta de ñoquis o gnocchi de patata con salsa boloñesa.",
+      "ingredients": "albahaca, salsa boloñesa, papa, harina",
+      "price": 1700,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 3
+    },
+    {
+      "title": "Ravioles con Salsa Boloñesa",
+      "category": "Menu",
+      "img": "https://img-global.cpcdn.com/recipes/4d7d7d352d34d5bb/1200x630cq70/photo.jpg",
+      "description": "Ravioles a la Boloñesa. Receta de origen italiano de la región de la Boloña, caracterizada por la salsa de carne. La pasta de la masa y el nombre se ha internacionalizado aunque el origen esta en el Celeste Imperio de China.",
+      "ingredients": "planchas de ravioles de verdura, cebollitas, diente ajo, ají pimiento morrón rojo, tomate",
+      "price": 1500,
+      "valoration": 7,
+      "tipo": "Comida",
+      "id": 4
+    },
+    {
+      "title": "Arroz salteado con pollo y verduras",
+      "category": "Menu",
+      "img": "https://images.hola.com/imagenes/cocina/recetas/20210223184896/arroz-salteado-con-verduras/1-223-61/arroz-verduras-adobe-t.jpg?tx=w_1200",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Arroz de grano largo, Tomate, Pimiento rojo, Pimiento amarillo, Cebolleta, Judías verdes, Maíz, Aceite de oliva virgen, Sal, Pimienta, Salsa de soja, Zumo de lima, Perejil fresco",
+      "price": 1200,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "title": "Pollo al horno con papas",
+      "category": "Menu",
+      "img": "https://images.hola.com/imagenes/cocina/recetas/20210223184896/arroz-salteado-con-verduras/1-223-61/arroz-verduras-adobe-t.jpg?tx=w_1200",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Aceite, Caldo pollo, Mostaza, Orégano, Ajo, Ají, Pollo",
+      "price": 2200,
+      "valoration": 8,
+      "tipo": "Comida"
+    },
+    {
+      "id": 7,
+      "title": "Sorrentinos Rellenos de Pollo, Espinaca, Cebolla y Morrón",
+      "category": "Menu",
+      "img": "https://img-global.cpcdn.com/recipes/38767ac6b866c5cd/1360x964cq70/sorrentinos-rellenos-de-pollo-espinaca-cebolla-y-morron-foto-principal.webp",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Harina, Huevos, Espina, Morrón rojo, Cebolla, Queso Rallado, Huevo, Sal, Pimienta, Orégano, Aceite",
+      "price": 2500,
+      "valoration": 8,
+      "tipo": "Comida"
+    },
+    {
+      "id": 8,
+      "title": "Papas con pollo al verdeo",
+      "category": "Menu",
+      "img": "https://img-global.cpcdn.com/recipes/e0c9e690a792a80b/1360x964cq70/papas-al-verdeo-foto-principal.webp",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Papas, Cebollas de verdeo, Crema de leche, Caldito de verdura, Aceite, Sal, Pimienta",
+      "price": 2800,
+      "valoration": 8,
+      "tipo": "Comida"
+    },
+    {
+      "id": 9,
+      "title": "IPA Green Beer",
+      "category": "Cerveza",
+      "img": "https://installbeer.com/cdn/shop/articles/cd9e36b9c5a1f1089bcbd5f310fb04d5-823438_1200x.jpg?v=1666620161",
+      "descripción": "cerveza de alta graduación alcohólica (entre 5º y 7º) y color ámbar, caracterizada por su amargor (contiene a partir de 40 IBU), sus aromas intensos y una alta concentración de lúpulos",
+      "ingredients": "La EX1 IPA Sevebrau, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
+      "price": "$500",
+      "valoration": "9",
+      "tipo": "bebida"
     }
   ]
 }
