@@ -1,60 +1,6 @@
 {
   "menu": [
-    {
-      "title": "Pizza con jamón crudo ",
-      "category": "Sin TACC",
-      "img": "https://www.recetaslamasia.es/wp-content/uploads/2013/12/singluten_18.jpg",
-      "description": "Pizza elaborada con alimentos aprobados por la ANMAT y a la ACELA",
-      "Ingredients": "Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
-      "price": "$ 3500",
-      "valoration": "9",
-      "tipo": "Comida",
-      "id": 20
-    },
-    {
-      "title": "Hamburguesa simple ",
-      "category": "Sin TACC",
-      "img": "https://www.recetaslamasia.es/wp-content/uploads/2016/07/singluten_7.jpg",
-      "description": "Hamburguesa elaborada con alimentos aprobados por la ANMAT y a ACELA",
-      "Ingredients": "Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
-      "price": "$ 2500",
-      "valoration": "10",
-      "tipo": "Comida",
-      "id": 21
-    },
-    {
-      "title": "Milanesa con puré ",
-      "category": "Sin TACC",
-      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
-      "description": "Milanesa con puré elaborada con alimentos aprobados por la ANMAT y a ACELA",
-      "Ingredients": "Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
-      "price": "$ 2200",
-      "valoration": "10",
-      "tipo": "Comida",
-      "id": 22
-    },
-    {
-      "title": "Milanesa de merluza con papas fritas ",
-      "category": "Sin TACC",
-      "img": "https://jetextramar.com/wp-content/uploads/2021/07/empresa-de-alimentos-receta-de-patata-casera.jpg",
-      "description": "Filet de merluza con papas fritas elaborada con alimentos aprobados por la ANMAT y a ACELA",
-      "Ingredients": "Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
-      "price": "$ 2700",
-      "valoration": "10",
-      "tipo": "Comida",
-      "id": 23
-    },
-    {
-      "title": "string",
-      "category": "string",
-      "img": "string",
-      "description": "string",
-      "ingredients": "string",
-      "price": "string",
-      "valoration": "string",
-      "tipo": "string",
-      "id": 1
-    },
+    
     {
       "title": "Milanesa con pure",
       "category": "Menu",
@@ -197,6 +143,160 @@
       "price": "$900",
       "valoration": "10",
       "tipo": "bebida"
+    },
+    {
+      "title": "Sándwich de Carne Ahumada",
+      "category": "Sándwich",
+      "img": "https://www.tapasmagazine.es/wp-content/uploads/2021/10/Katz-Julio-2021-22-1200x800.jpg",
+      "description": "Un sándwich delicioso con carne ahumada, salsa barbacoa, cebolla morada y encurtidos, servido en pan de cerveza.",
+      "ingredients": "Carne ahumada, salsa barbacoa, cebolla morada, encurtidos, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 15
+    },
+    {
+      "title": "Sándwich de Pollo a la Parrilla",
+      "category": "Sándwich",
+      "img": "https://www.gourmet4life.com/image0428/cf/cf3f7305682c4aa68edf7d81dd2ef30e.jpg",
+      "description": "Un sándwich clásico con pechuga de pollo a la parrilla, lechuga, tomate y mayonesa, servido en pan de cerveza.",
+      "ingredients": "Pechuga de pollo a la parrilla, lechuga, tomate, mayonesa, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 16
+    },
+    {
+      "title": "Sándwich Cubano",
+      "category": "Sándwich",
+      "img": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_pv5iam8f1g_iStock-473336754-1024x683.jpg.webp",
+      "description": "Un sándwich clásico con jamón, cerdo asado, queso suizo, mostaza y pepinillos, servido en pan cubano.",
+      "ingredients": "Jamón, cerdo asado, queso suizo, mostaza, pepinillos, pan cubano",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 17
+    },
+    {
+      "title": "Sándwich Reuben",
+      "category": "Sándwich",
+      "img": "https://comerbeber.com/archivos/imagen/2020/02/sandwich-reuben_cv_1200.jpg",
+      "description": "Un sándwich clásico con carne en conserva, sauerkraut, queso suizo y salsa rusa, servido en pan de centeno.",
+      "ingredients": "Carne en conserva, sauerkraut, queso suizo, salsa rusa, pan de centeno",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 18
+    },
+    {
+      "title": "Sándwich de Pavo Club",
+      "category": "Sándwich",
+      "img": "https://www.foodpal-app.com/uploads/images/meals/3699/clubsandwich-mit-putenbrust-und-avocado-600c2aa0265c6-800.webp",
+      "description": "Un sándwich clásico con pavo asado, bacon, lechuga, tomate y mayonesa, servido en pan de cerveza y pan de molde.",
+      "ingredients": "Pavo asado, bacon, lechuga, tomate, mayonesa, pan de cerveza, pan de molde",
+      "price": 1500,
+      "valoration": 9,
+      "tipo": "Comida",
+      "id": 19
+    },
+    {
+      "title": "Pizza con jamón crudo ",
+      "category": "Sin TACC",
+      "img": "https://www.recetaslamasia.es/wp-content/uploads/2013/12/singluten_18.jpg",
+      "description": "Pizza elaborada con alimentos aprobados por la ANMAT y a la ACELA",
+      "Ingredients": "Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
+      "price": "$ 3500",
+      "valoration": "9",
+      "tipo": "Comida",
+      "id": 20
+    },
+    {
+      "title": "Hamburguesa simple ",
+      "category": "Sin TACC",
+      "img": "https://www.recetaslamasia.es/wp-content/uploads/2016/07/singluten_7.jpg",
+      "description": "Hamburguesa elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "Ingredients": "Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
+      "price": "$ 2500",
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 21
+    },
+    {
+      "title": "Milanesa con puré ",
+      "category": "Sin TACC",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Milanesa con puré elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "Ingredients": "Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
+      "price": "$ 2200",
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 22
+    },
+    {
+      "title": "Milanesa de merluza con papas fritas ",
+      "category": "Sin TACC",
+      "img": "https://jetextramar.com/wp-content/uploads/2021/07/empresa-de-alimentos-receta-de-patata-casera.jpg",
+      "description": "Filet de merluza con papas fritas elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "Ingredients": "Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
+      "price": "$ 2700",
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 23
+    },
+    {
+      "title": "Sándwich de Queso a la Parrilla",
+      "category": "Sándwich",
+      "img": "https://assets.unileversolutions.com/recipes-v2/117155.jpg",
+      "description": "Un sándwich clásico con una mezcla de quesos derretidos entre dos rebanadas de pan de cerveza.",
+      "ingredients": "Mezcla de quesos, mantequilla, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 24
+    },
+    {
+      "title": "Sándwich BLT",
+      "category": "Sándwich",
+      "img": "https://recetinas.com/wp-content/uploads/2022/05/sandwich-blt.jpg.webp",
+      "description": "Un sándwich clásico con bacon, lechuga, tomate y mayonesa, servido en pan de cerveza.",
+      "ingredients": "Bacon, lechuga, tomate, mayonesa, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 25
+    },
+    {
+      "title": "Sándwich de Salchicha Bratwurst",
+      "category": "Sándwich",
+      "img": "https://previews.123rf.com/images/bhofack2/bhofack22012/bhofack2201200491/160844819-s%C3%A1ndwiches-caseros-de-salchicha-bratwurst-con-mostaza-y-chucrut.jpg",
+      "description": "Un sándwich clásico con salchicha bratwurst, cebolla caramelizada y mostaza, servido en pan de cerveza.",
+      "ingredients": "Salchicha bratwurst, cebolla caramelizada, mostaza, pan de cerveza",
+      "price": 1500,
+      "valoration": 7,
+      "tipo": "Comida",
+      "id": 26
+    },
+    {
+      "title": "Sándwich de Pescado Frito",
+      "category": "Sándwich",
+      "img": "https://comidaschilenas.com/wp-content/uploads/2019/08/Receta-de-s%C3%A1ndwich-de-pescado-frito.jpg",
+      "description": "Un sándwich clásico con filete de pescado frito, lechuga, tomate y salsa tártara, servido en pan de cerveza.",
+      "ingredients": "Filete de pescado frito, lechuga, tomate, salsa tártara, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 27
+    },
+    {
+      "title": "Sándwich de Verduras Asadas",
+      "category": "Sándwich",
+      "img": "https://gastroamantes.com/wp-content/uploads/2017/06/IMG_0013.jpg",
+      "description": "Un sándwich clásico con verduras asadas, queso de cabra y pesto, servido en pan de cerveza.",
+      "ingredients": "Verduras asadas, queso de cabra, pesto, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 28
     }
   ]
 }
