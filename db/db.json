@@ -297,6 +297,116 @@
       "valoration": 8,
       "tipo": "Comida",
       "id": 28
+    },
+    {
+      "id": 30,
+      "title": "Ceviche Green Beer",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/11/rpm2Recurso-2.jpg",
+      "description": "Los ceviches más habituales suelen ser de pescados y mariscos, pero aquí te proponemos un exquisito ceviche, de hongos y vegetales.",
+      "Ingredient": "hongos shitakes, salsa cevichera de ají amarillo, aceite de cilantro, palta, maíz cancha, coral de boniato",
+      "price": 2500,
+      "valoration": 2,
+      "tipo": "Comida"
+    },
+    {
+      "id": 31,
+      "title": "Berenjena Asada con Hummus de Garbanzo.",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9429.jpg",
+      "description": "Estas berenjenas asadas con hummus son un plato ligero y saludable",
+      "Ingredient": "berenjena asada, miel de caña y miso, hummus de garbanzo, furikake, aceite pimentón picante, ensalada",
+      "price": 2800,
+      "valoration": 3,
+      "tipo": "Comida"
+    },
+    {
+      "id": 32,
+      "title": "Risotto de hongos trufado.",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_5971-2048x1365.jpeg",
+      "description": "El aceite de trufa le dará el punto elegante a un arroz blanco convencional que disfrutará de la cremosidad típica de cualquier risotto. Las hongos serán los encargados de ofrecer un nombre propio y un sabor muy conocido a este arroz.",
+      "Ingredient": "hongos, aceite de trufa, mozzarella de cajú, verdeo, arroz al vino blanco",
+      "price": 3200,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 33,
+      "title": "Mousakka Griega.",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9455-1868x2048.jpg",
+      "description": "El musaka o musaca es un plato tradicional de los Balcanes y el Medio Oriente hecho a base de berenjena. La versión griega, que es la más conocida internacionalmente",
+      "Ingredient": "lasaña de berenjena, boloñesa de hongos, bechamel de papa, tomate, ensalada verde, vinagreta de tamarindo",
+      "price": 3400,
+      "valoration": 5,
+      "tipo": "Comida"
+    },
+    {
+      "id": 34,
+      "title": "Katsu Sandwich",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/22112022-IMG_8915-1-scaled-e1670876642886-2048x1270.jpg",
+      "description": "Plato típico de la gastronomía japonesa en su versión vegetariana",
+      "Ingredient": "Milanesa de portobello, pan lactal de papa, coleslaw, pepino encurtido, salsa tonkapsu, papas en hilos",
+      "price": 2600,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 35,
+      "title": "Pizza Margarita",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9797-scaled-e1670860615845.jpg",
+      "description": "La madre de todas las pizzas, la pizza Margarita , tomate, queso, pesto albahaca fresca y aceite de oliva virgen extra, sencilla y deliciosa",
+      "Ingredient": "salsa de tomate, queso a base de cajú, pesto, albahaca",
+      "price": 3700,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 36,
+      "title": "Rolls Capresse",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/rpmRecurso-2.jpg",
+      "description": "Este pesto de 5 ingredientes pega fuerte. Con un potente sabor mediterráneo.",
+      "Ingredient": "Tomates secos maserados en tsu, queso de cajú, palta, coronado con salsa pesto de semillas de calabaza",
+      "price": 3200,
+      "valoration": 3,
+      "tipo": "Comida"
+    },
+    {
+      "id": 37,
+      "title": "Pizza Funghi",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/07/IMG-8016-1-2048x1084.jpg",
+      "description": "Una pizza diferente a base de hongos, cebolla caramelizada y crema de Caju",
+      "Ingredient": "crema de cajú, hongos asados, cebolla caramlizada, romero y oliva",
+      "price": 3800,
+      "valoration": 5,
+      "tipo": "Comida"
+    },
+    {
+      "id": 38,
+      "title": "Ensalada de la tierra",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9553-scaled-e1670877558211.jpg",
+      "description": "Un plato fresco, natural, liviano y sobre todo muy nutritivo",
+      "Ingredient": "lentejas, zapallo rostizado, salsa harissa de ají panca, naranjas a vivo, almendras tostadas, queso tipo cabra, palta",
+      "price": 2800,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 39,
+      "title": "Tortelones Marinara",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_6028-2048x1365.jpeg",
+      "description": "Exquisita pasta rellena con salsa marinara y parmesano",
+      "Ingredient": "rellenos de arveja, shio koji, salsa marinara, parmesano raw.",
+      "price": 3600,
+      "valoration": 5,
+      "tipo": "Comida"
     }
   ]
 }
