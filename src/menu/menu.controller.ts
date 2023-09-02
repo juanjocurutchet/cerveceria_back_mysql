@@ -1,20 +1,23 @@
-import { Body, Controller, Delete, Get, Param, Post,Query } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Query } from '@nestjs/common';
 import { MenuService } from './menu.service';
 import { Menu } from './menu.interface';
 
-@Controller('menu')
+@Controller('menu/')
 export class MenuController {
-  constructor(private readonly menuService: MenuService) {}
+  constructor(private readonly menuService: MenuService) { }
   @Get('/:id')
   getMenuById(@Param('id') id: number): Promise<Menu> {
     return this.menuService.getMenuById(id);
   }
   @Get()
   getMenu(@Query('title') title?: string): Promise<Menu[]> {
-    if(title) return this.menuService.getMenuByTitle(title);
-  
+    if (title) return this.menuService.getMenuByTitle(title);
+
     return this.menuService.getMenu()
-      }
+  }
+  getMenuSearh(@Query() query: any): Promise<Menu[]> {
+    return this.menuService.getMenuSearch(query);
+  }
 
 
   @Post()
