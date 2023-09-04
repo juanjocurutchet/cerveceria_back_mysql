@@ -44,6 +44,16 @@ export class MenuService {
       );
     }
 
+    if (query.ingredients) {
+      results = results.filter((menu) =>
+      menu.ingredients.toUpperCase().includes(query.ingredients.toUpperCase())
+      );
+    }
+
+    if (query.price) {
+      results = results.filter((menu)=> Number(menu.price)=== Number(query.price));
+    }
+
     if (results.length === 0) {
       throw new NotFoundException({ message: 'No hay coincidencias' });
     }

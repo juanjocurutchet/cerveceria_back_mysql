@@ -10,13 +10,17 @@ export class MenuController {
     return this.menuService.getMenuById(id);
   }
   @Get()
+  getMenuSearh(@Query() query: any): Promise<Menu[]> {
+    console.log("hola");
+    
+    return this.menuService.getMenuSearch(query);
+  }
   getMenu(@Query('title') title?: string): Promise<Menu[]> {
     if (title) return this.menuService.getMenuByTitle(title);
-
+    console.log("soy getMenu");
+    
+  
     return this.menuService.getMenu()
-  }
-  getMenuSearh(@Query() query: any): Promise<Menu[]> {
-    return this.menuService.getMenuSearch(query);
   }
 
 
