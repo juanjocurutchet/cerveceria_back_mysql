@@ -16,14 +16,22 @@ export class MenuController {
     return this.menuService.getMenuSearch(query);
   }
   getMenu(@Query('title') title?: string,
+          @Query('price') price?:string,
           @Query('description') description?: string,
           @Query('tipo') tipo?: string,
           @Query('valoration') valoration?: string,
+          @Query('ingredients') ingredients?:string,
+          @Query('category') category?: string,
           ): Promise<Menu[]> {
+    
     if (title) return this.menuService.getMenuByTitle(title);
     if (description) return this.menuService.getMenuByTitle(description);
     if (tipo) return this.menuService.getMenuByTitle(tipo);
     if (valoration) return this.menuService.getMenuByValoracion(valoration);
+    if (ingredients) return this.menuService.getMenuByIngredients(ingredients);
+    if (category) return this.menuService.getMenuByCategory(category);
+    if ( price ) return this.menuService.getMenuByPrice(price);
+
     console.log("soy getMenu");
     return this.menuService.getMenu()
   }

@@ -25,7 +25,7 @@ export class MenuService {
     if (!filterByTitle.length) throw new NotFoundException({ messege: "No hay coincidencias" })
     return filterByTitle;
   }
-
+  
   async getMenuByTipo(tipo: string): Promise<Menu[]> {
     const allMenu = await this.getMenu();
     const filterByTipo = allMenu.filter((Menu) => Menu.tipo.toUpperCase().includes(tipo.toUpperCase()))
@@ -45,6 +45,27 @@ export class MenuService {
     const filterByValoration = allMenu.filter((Menu) => Menu.valoration.toUpperCase().includes(valoration.toUpperCase()))
     if (!filterByValoration.length) throw new NotFoundException({ messege: "No hay coincidencias" })
     return filterByValoration;
+}
+  async getMenuByCategory(category: string): Promise<Menu[]> {
+    const allMenu = await this.getMenu();
+    const filterByCategory = allMenu.filter((Menu) => Menu.category.toUpperCase().includes(category.toUpperCase()))
+    if (!filterByCategory.length) throw new NotFoundException({ messege: "No hay coincidencias" })
+    return filterByCategory;
+  }
+
+  async getMenuByIngredients(ingredients: string): Promise<Menu[]> {
+    const allMenu = await this.getMenu();
+    const filterByIngredients = allMenu.filter((Menu) => Menu.ingredients.toUpperCase().includes(ingredients.toUpperCase()))
+    if (!filterByIngredients.length) throw new NotFoundException({ messege: "No hay coincidencias" })
+    return filterByIngredients;
+
+  }
+
+  async getMenuByPrice( price: string ) : Promise <Menu[]>{
+    const res = await this.getMenu();
+    const parsed = res.filter((menu)=> Number(menu.price)=== Number(price));
+    if (!parsed.length) throw new NotFoundException(`No existe menu que contenga el precio ${price}`);
+    return parsed;
   }
 
   async getMenuSearch(query: any): Promise<Menu[]> {
