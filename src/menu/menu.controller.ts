@@ -23,7 +23,7 @@ export class MenuController {
           @Query('ingredients') ingredients?:string,
           @Query('category') category?: string,
           ): Promise<Menu[]> {
-    
+                
     if (title) return this.menuService.getMenuByTitle(title);
     if (description) return this.menuService.getMenuByTitle(description);
     if (tipo) return this.menuService.getMenuByTitle(tipo);
