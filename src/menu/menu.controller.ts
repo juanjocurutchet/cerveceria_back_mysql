@@ -17,8 +17,11 @@ export class MenuController {
   }
   getMenu(@Query('title') title?: string,
           @Query('price') price?:string,
+          @Query('ingredients') ingredients?:string,
           ): Promise<Menu[]> {
+    
     if (title) return this.menuService.getMenuByTitle(title);
+    if (ingredients) return this.menuService.getMenuByIngredients(ingredients);
     if ( price ) return this.menuService.getMenuByPrice(price);
     console.log("soy getMenu");
     
