@@ -15,8 +15,11 @@ export class MenuController {
     
     return this.menuService.getMenuSearch(query);
   }
-  getMenu(@Query('title') title?: string): Promise<Menu[]> {
+  getMenu(@Query('title') title?: string,
+          @Query('price') price?:string,
+          ): Promise<Menu[]> {
     if (title) return this.menuService.getMenuByTitle(title);
+    if ( price ) return this.menuService.getMenuByPrice(price);
     console.log("soy getMenu");
     
   
