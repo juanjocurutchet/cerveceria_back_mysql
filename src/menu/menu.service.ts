@@ -23,6 +23,13 @@ export class MenuService {
     return filterByTitle;
   }
 
+  async getMenuByIngredients(ingredients: string): Promise<Menu[]> {
+    const allMenu = await this.getMenu();
+    const filterByIngredients = allMenu.filter((Menu) => Menu.ingredients.toUpperCase().includes(ingredients.toUpperCase()))
+    if (!filterByIngredients.length) throw new NotFoundException({ messege: "No hay coincidencias" })
+    return filterByIngredients;
+  }
+
   async getMenuSearch(query: any): Promise<Menu[]> {
     let results = await this.getMenu();
 
