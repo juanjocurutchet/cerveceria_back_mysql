@@ -10,8 +10,12 @@ export class MenuController {
     return this.menuService.getMenuById(id);
   }
   @Get()
-  getMenu(@Query('title') title?: string): Promise<Menu[]> {
+  
+  getMenu(@Query('title') title?: string,
+          @Query('category') category?: string,
+          ): Promise<Menu[]> {
     if (title) return this.menuService.getMenuByTitle(title);
+    if (category) return this.menuService.getMenuByCategory(category); 
 
     return this.menuService.getMenu()
   }
