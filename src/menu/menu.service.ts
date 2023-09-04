@@ -4,6 +4,9 @@ import { NotFoundException } from '@nestjs/common/exceptions';
 const BASE_URL = 'http://localhost:3031/menu/';
 @Injectable()
 export class MenuService {
+  getMenuByValoracion(valoracion: string): Promise<Menu[]> {
+    throw new Error('Method not implemented.');
+  }
   async getMenuById(id: number): Promise<Menu> {
     const res = await fetch(BASE_URL + id);
     const parsed = await res.json();
@@ -21,6 +24,27 @@ export class MenuService {
     const filterByTitle = allMenu.filter((Menu) => Menu.title.toUpperCase().includes(title.toUpperCase()))
     if (!filterByTitle.length) throw new NotFoundException({ messege: "No hay coincidencias" })
     return filterByTitle;
+  }
+
+  async getMenuByTipo(tipo: string): Promise<Menu[]> {
+    const allMenu = await this.getMenu();
+    const filterByTipo = allMenu.filter((Menu) => Menu.tipo.toUpperCase().includes(tipo.toUpperCase()))
+    if (!filterByTipo.length) throw new NotFoundException({ messege: "No hay coincidencias" })
+    return filterByTipo;
+  }
+
+  async getMenuByDescription(description: string): Promise<Menu[]> {
+    const allMenu = await this.getMenu();
+    const filterByDescription = allMenu.filter((Menu) => Menu.description.toUpperCase().includes(description.toUpperCase()))
+    if (!filterByDescription.length) throw new NotFoundException({ messege: "No hay coincidencias" })
+    return filterByDescription;
+  }
+
+  async getMenuByValoration(valoration: string): Promise<Menu[]> {
+    const allMenu = await this.getMenu();
+    const filterByValoration = allMenu.filter((Menu) => Menu.valoration.toUpperCase().includes(valoration.toUpperCase()))
+    if (!filterByValoration.length) throw new NotFoundException({ messege: "No hay coincidencias" })
+    return filterByValoration;
   }
 
   async getMenuSearch(query: any): Promise<Menu[]> {
@@ -46,12 +70,28 @@ export class MenuService {
 
     if (query.ingredients) {
       results = results.filter((menu) =>
-      menu.ingredients.toUpperCase().includes(query.ingredients.toUpperCase())
+        menu.ingredients.toUpperCase().includes(query.ingredients.toUpperCase())
       );
     }
 
     if (query.price) {
-      results = results.filter((menu)=> Number(menu.price)=== Number(query.price));
+      results = results.filter((menu) => Number(menu.price) === Number(query.price));
+    }
+
+    if (query.description) {
+      results = results.filter((menu) =>
+        menu.description.toUpperCase().includes(query.description.toUpperCase())
+      );
+    }
+
+    if (query.tipo) {
+      results = results.filter((menu) =>
+        menu.tipo.toUpperCase().includes(query.tipo.toUpperCase())
+      );
+    }
+
+    if (query.valoration) {
+      results = results.filter((menu) => Number(menu.valoration) === Number(query.valoration));
     }
 
     if (results.length === 0) {
