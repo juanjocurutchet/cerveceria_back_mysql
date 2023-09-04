@@ -23,11 +23,20 @@ export class MenuService {
     return filterByTitle;
   }
 
+
   async getMenuByCategory(category: string): Promise<Menu[]> {
     const allMenu = await this.getMenu();
     const filterByCategory = allMenu.filter((Menu) => Menu.category.toUpperCase().includes(category.toUpperCase()))
     if (!filterByCategory.length) throw new NotFoundException({ messege: "No hay coincidencias" })
     return filterByCategory;
+  }
+
+  async getMenuByIngredients(ingredients: string): Promise<Menu[]> {
+    const allMenu = await this.getMenu();
+    const filterByIngredients = allMenu.filter((Menu) => Menu.ingredients.toUpperCase().includes(ingredients.toUpperCase()))
+    if (!filterByIngredients.length) throw new NotFoundException({ messege: "No hay coincidencias" })
+    return filterByIngredients;
+
   }
 
   async getMenuSearch(query: any): Promise<Menu[]> {
@@ -49,6 +58,16 @@ export class MenuService {
       results = results.filter((menu) =>
         menu.category.toUpperCase() === query.category.toUpperCase()
       );
+    }
+
+    if (query.ingredients) {
+      results = results.filter((menu) =>
+      menu.ingredients.toUpperCase().includes(query.ingredients.toUpperCase())
+      );
+    }
+
+    if (query.price) {
+      results = results.filter((menu)=> Number(menu.price)=== Number(query.price));
     }
 
     if (results.length === 0) {

@@ -8,7 +8,7 @@ import { MenuService } from './menu/menu.service';
 
 @Module({
   imports: [ServeStaticModule.forRoot({ rootPath: join(__dirname, '..', 'client') }),],
-  controllers: [AppController, MenuController],
+  controllers: [ MenuController],
   providers: [AppService, MenuService],
 })
 export class AppModule {}
