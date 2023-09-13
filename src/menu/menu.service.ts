@@ -1,6 +1,5 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
 import { Menu } from './menu.interface';
-import { NotFoundException } from '@nestjs/common/exceptions';
 const BASE_URL = 'http://localhost:3031/menu/';
 @Injectable()
 export class MenuService {
@@ -9,13 +8,17 @@ export class MenuService {
   }
   async getMenuById(id: number): Promise<Menu> {
     const res = await fetch(BASE_URL + id);
-    const parsed = await res.json();    
+    const parsed = await res.json();  
+    if (!Object.keys(parsed).length)throw new NotFoundException(`Usuario con id ${id} no existe`);
+ 
     return parsed;
   }
 
   async getMenu(): Promise<Menu[]> {
     const res = await fetch(BASE_URL);
+    if (!res.ok) throw new BadRequestException("Fallo el fetch")
     const parsed = await res.json();
+
     return parsed;
   }
 

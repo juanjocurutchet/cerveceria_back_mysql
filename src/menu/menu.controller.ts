@@ -11,7 +11,6 @@ export class MenuController {
   }
   @Get()
   getMenuSearh(@Query() query: any): Promise<Menu[]> {
-    
     return this.menuService.getMenuSearch(query);
   }
 
