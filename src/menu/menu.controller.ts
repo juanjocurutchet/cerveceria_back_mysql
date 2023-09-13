@@ -7,6 +7,7 @@ import {
   Post,
   Query,
   HttpCode,
+  Put
 } from '@nestjs/common';
 import { MenuService } from './menu.service';
 import { Menu } from './menu.interface';
@@ -32,4 +33,9 @@ export class MenuController {
   deleteMenu(@Param('id') id: number): Promise<void> {
     return this.menuService.deleteMenu(id);
   }
+
+  @Put('/:id')
+updateMenuById(@Param('id') id: number, @Body() body: Menu): Promise<Menu> {
+return this.menuService.updateMenuById(id, body);
+}
 }
