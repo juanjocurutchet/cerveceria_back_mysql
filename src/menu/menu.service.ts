@@ -102,8 +102,7 @@ export class MenuService {
   }
   async updateMenuById(id: number, body: Menu): Promise<Menu> {
     const isMenu = await this.getMenuById(id);
-    const updatedMenu = {
-      id: body.id,
+    const updatedMenu = {      
       title: body.title,
       category: body.category,
       img: body.img,
