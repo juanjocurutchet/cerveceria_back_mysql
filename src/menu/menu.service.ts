@@ -89,10 +89,19 @@ export class MenuService {
     const parsed = res.json();
     return parsed;
   }
+  async deleteMenu(id: number): Promise<void> {
+    const comprobacion = await this.getMenu();
+    const res = await fetch(BASE_URL+id,{
+        method: 'DELETE',
+    });
+    if (!res.ok) throw new Error ('Hubo un problema al borrar el menu');
 
   private async setId(): Promise<number> {
     const menu = await this.getMenu();
     const id = menu.pop().id + 1;
     return id;
   }
+
+}
+
 }
