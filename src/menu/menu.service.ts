@@ -8,9 +8,9 @@ export class MenuService {
   }
   async getMenuById(id: number): Promise<Menu> {
     const res = await fetch(BASE_URL + id);
-    const parsed = await res.json();  
-    if (!Object.keys(parsed).length)throw new NotFoundException(`Usuario con id ${id} no existe`);
- 
+    const parsed = await res.json();
+    if (!Object.keys(parsed).length) throw new NotFoundException(`Usuario con id ${id} no existe`);
+
     return parsed;
   }
 
@@ -94,13 +94,35 @@ export class MenuService {
   }
   async deleteMenu(id: number): Promise<void> {
     const comprobacion = await this.getMenu();
-    const res = await fetch(BASE_URL+id,{
-        method: 'DELETE',
+    const res = await fetch(BASE_URL + id, {
+      method: 'DELETE',
     });
-    if (!res.ok) throw new Error ('Hubo un problema al borrar el menu');
+    if (!res.ok) throw new Error('Hubo un problema al borrar el menu');
 
   }
-  
+  async updateMenuById(id: number, body: Menu): Promise<Menu> {
+    const isMenu = await this.getMenuById(id);
+    const updatedMenu = {
+      id: body.id,
+      title: body.title,
+      category: body.category,
+      img: body.img,
+      description: body.description,
+      ingredients: body.ingredients,
+      price: body.price,
+      valoration: body.valoration,
+      tipo: body.tipo
+    };
+    const res = await fetch(BASE_URL + id, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(updatedMenu),
+    });
+    const parsed = await res.json();
+    return parsed;
+  }
   private async setId(): Promise<number> {
     const menu = await this.getMenu();
     const id = menu.pop().id + 1;
