@@ -55,8 +55,7 @@ export class UsersService {
 
     async updateUserById(id: number, body: Users): Promise<Users> {
         const isUser = await this.getUserById(id);
-        const updatedUser = {
-            id: body.id,
+        const updatedUser = {            
             name: body.name,
             lastName: body.lastName,
             user: body.user,

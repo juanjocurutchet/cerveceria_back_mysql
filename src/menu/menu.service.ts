@@ -1,5 +1,6 @@
 import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
 import { Menu } from './menu.interface';
+import { MenuDto } from './menu.dto';
 const BASE_URL = 'http://localhost:3031/menu/';
 @Injectable()
 export class MenuService {
@@ -77,7 +78,7 @@ export class MenuService {
   }
 
 
-  async createMenu(menu: Menu): Promise<Menu> {
+  async createMenu(menu: MenuDto): Promise<MenuDto> {
     const id = await this.setId();
     const { title, category, img, description, ingredients, price, valoration, tipo } = menu
     const newMenu = { id, title, category, img, description, ingredients, price, valoration, tipo };
@@ -100,10 +101,9 @@ export class MenuService {
     if (!res.ok) throw new Error('Hubo un problema al borrar el menu');
 
   }
-  async updateMenuById(id: number, body: Menu): Promise<Menu> {
+  async updateMenuById(id: number, body: MenuDto): Promise<any> {
     const isMenu = await this.getMenuById(id);
-    const updatedMenu = {
-      id: body.id,
+    const updatedMenu = {      
       title: body.title,
       category: body.category,
       img: body.img,
