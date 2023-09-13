@@ -99,12 +99,13 @@ export class MenuService {
     });
     if (!res.ok) throw new Error ('Hubo un problema al borrar el menu');
 
+  }
+  
   private async setId(): Promise<number> {
     const menu = await this.getMenu();
     const id = menu.pop().id + 1;
     return id;
   }
 
-}
 
 }

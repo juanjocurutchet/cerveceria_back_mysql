@@ -6,6 +6,7 @@ import {
   Param,
   Post,
   Query,
+  HttpCode,
 } from '@nestjs/common';
 import { MenuService } from './menu.service';
 import { Menu } from './menu.interface';
