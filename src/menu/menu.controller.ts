@@ -7,16 +7,21 @@ import {
   Post,
   Query,
   HttpCode,
-  Put
+  Put,
+  ParseIntPipe,
+  HttpStatus
 } from '@nestjs/common';
 import { MenuService } from './menu.service';
 import { Menu } from './menu.interface';
+import { MenuDto } from './menu.dto';
 
 @Controller('menu/')
 export class MenuController {
   constructor(private readonly menuService: MenuService) {}
   @Get('/:id')
-  getMenuById(@Param('id') id: number): Promise<Menu> {
+  getMenuById(@Param('id', new ParseIntPipe({
+    errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE
+  })) id: number): Promise<Menu> {
     return this.menuService.getMenuById(id);
   }
   @Get()
@@ -25,8 +30,10 @@ export class MenuController {
   }
 
   @Post()
-  createMenu(@Body() body): Promise<Menu> {
-    return this.menuService.createMenu(body);
+  createMenu(@Body() menuDto: MenuDto): Promise<any> {
+    console.log(menuDto);
+    
+    return this.menuService.createMenu(menuDto);
   }
   @Delete('/:id')
   @HttpCode(204)
@@ -35,7 +42,7 @@ export class MenuController {
   }
 
   @Put('/:id')
-updateMenuById(@Param('id') id: number, @Body() body: Menu): Promise<Menu> {
-return this.menuService.updateMenuById(id, body);
+updateMenuById(@Param('id') id: number, @Body() menuDto: MenuDto): Promise<any> {
+return this.menuService.updateMenuById(id, menuDto);
 }
 }
