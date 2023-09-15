@@ -4,9 +4,6 @@ import { MenuDto } from './menu.dto';
 const BASE_URL = 'http://localhost:3031/menu/';
 @Injectable()
 export class MenuService {
-  getMenuByValoracion(valoracion: string): Promise<Menu[]> {
-    throw new Error('Method not implemented.');
-  }
   async getMenuById(id: number): Promise<Menu> {
     const res = await fetch(BASE_URL + id);
     const parsed = await res.json();
@@ -23,7 +20,7 @@ export class MenuService {
     return parsed;
   }
 
-  async getMenuSearch(query: any): Promise<Menu[]> {
+  async getMenuSearch(query: any): Promise<MenuDto[]> {
     let results = await this.getMenu();
 
     if (query.title) {
@@ -76,7 +73,6 @@ export class MenuService {
 
     return results;
   }
-
 
   async createMenu(menu: MenuDto): Promise<MenuDto> {
     const id = await this.setId();

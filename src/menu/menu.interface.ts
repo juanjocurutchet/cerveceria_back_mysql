@@ -8,4 +8,4 @@ export interface Menu {
     price: string;
     valoration: string;
     tipo: string;
-}
+};
