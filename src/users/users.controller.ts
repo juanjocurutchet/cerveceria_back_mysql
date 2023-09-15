@@ -1,6 +1,7 @@
 import { Body, Controller, Get, Param, Post, HttpCode, Query, Delete,Put } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { Users } from './users.interface';
+import { UserDto } from './user.dto';
 
 @Controller('users/')
 export class UsersController {
@@ -17,9 +18,10 @@ export class UsersController {
         return this.userService.getUsers();
     }
     @Post()
-    createUser(@Body() body): Promise<any> {
-        return this.userService.createUser(body);
+    createUser(@Body() userDto: UserDto): Promise<any> {
+        return this.userService.createUser(userDto);
     }
+    
     @Delete('/:id')
     @HttpCode(204)
     deleteUser(@Param('id') id: number): Promise<void> {

@@ -1,5 +1,6 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { Users } from './users.interface';
+import { UserDto } from './user.dto';
 const BASE_URL = 'http://localhost:3031/users/';
 @Injectable()
 export class UsersService {
@@ -24,10 +25,10 @@ export class UsersService {
         return parsed;
     }
 
-    async createUser(userActual: Users): Promise<Users> {
+    async createUser(userActual: UserDto): Promise<UserDto> {
         const id = await this.setId();
-        const { name, lastName, user, password, age } = userActual;
-        const newUser = { ...userActual, id };
+        const { name, lastName, user, email, password, age } = userActual;
+        const newUser = { id, name, lastName, user, email, password, age };
         const res = await fetch(BASE_URL, {
             method: 'POST',
             headers: {
