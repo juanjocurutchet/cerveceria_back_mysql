@@ -2,7 +2,7 @@ import { Body, Controller, Get, Param, Post, HttpCode, Query, Delete,Put } from 
 import { UsersService } from './users.service';
 import { Users } from './users.interface';
 
-@Controller('users')
+@Controller('users/')
 export class UsersController {
     constructor(private readonly userService: UsersService) { }
     @Get('/:id')

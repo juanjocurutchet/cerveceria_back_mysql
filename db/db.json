@@ -414,6 +414,7 @@
       "name": "Juan",
       "lastName": "Pérez",
       "user": "juanperez",
+      "email": "juan@jsa.com",
       "password": "contraseña123",
       "age": "1990-05-15"
     },
@@ -422,6 +423,7 @@
       "name": "María",
       "lastName": "González",
       "user": "mariagonzalez",
+      "email": "juan@jsa.com",
       "password": "mipassword",
       "age": "1985-08-20"
     },
@@ -430,6 +432,7 @@
       "name": "Carlos",
       "lastName": "López",
       "user": "carloslopez",
+      "email": "juan@jsa.com",
       "password": "clave_secreta",
       "age": "1995-02-10"
     },
@@ -438,6 +441,7 @@
       "name": "Ana",
       "lastName": "Martínez",
       "user": "anamartinez",
+      "email": "juan@jsa.com",
       "password": "mi_contraseña",
       "age": "1988-11-30"
     },
@@ -446,6 +450,7 @@
       "name": "Pedro",
       "lastName": "Ramírez",
       "user": "pedroramirez",
+      "email": "juan@jsa.com",
       "password": "mipassword123",
       "age": "1993-07-05"
     }
