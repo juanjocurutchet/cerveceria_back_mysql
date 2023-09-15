@@ -453,6 +453,33 @@
       "email": "juan@jsa.com",
       "password": "mipassword123",
       "age": "1993-07-05"
+    },
+    {
+      "id": 7,
+      "name": "Ana",
+      "lastName": "Martínez",
+      "user": "anamartinez",
+      "email": "juan@jsa.com",
+      "password": "mi_contraseña",
+      "age": "1988-11-30"
+    },
+    {
+      "name": "Facundo",
+      "lastName": "Martínez",
+      "user": "anamartinez",
+      "email": "juan@jsa.com",
+      "password": "mi_contraseña",
+      "age": "1988-11-30",
+      "id": 8
+    },
+    {
+      "name": "roman",
+      "lastName": "roman",
+      "email": "roman@gmail.com",
+      "user": "roman22",
+      "password": "roman",
+      "age": "28",
+      "id": 9
     }
   ]
 }

@@ -12,7 +12,6 @@ import {
   HttpStatus
 } from '@nestjs/common';
 import { MenuService } from './menu.service';
-import { Menu } from './menu.interface';
 import { MenuDto } from './menu.dto';
 
 @Controller('menu/')
@@ -21,11 +20,11 @@ export class MenuController {
   @Get('/:id')
   getMenuById(@Param('id', new ParseIntPipe({
     errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE
-  })) id: number): Promise<Menu> {
+  })) id: number): Promise<MenuDto> {
     return this.menuService.getMenuById(id);
   }
   @Get()
-  getMenuSearh(@Query() query: any): Promise<Menu[]> {
+  getMenuSearh(@Query() query: any): Promise<MenuDto[]> {
     return this.menuService.getMenuSearch(query);
   }
 
