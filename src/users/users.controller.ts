@@ -1,15 +1,16 @@
 import { Body, Controller, Get, Param, Post, HttpCode, Query, Delete,Put } from '@nestjs/common';
 import { UsersService } from './users.service';
-import { Users } from './users.interface';
 import { UserDto } from './user.dto';
 
 @Controller('users/')
 export class UsersController {
     constructor(private readonly userService: UsersService) { }
     @Get('/:id')
-    getUserById(@Param('id') id: number): Promise<Users> {
+    getUserById(@Param('id') id: number): Promise<any> {
         return this.userService.getUserById(id)
     }
+
+
     @Get()
     getUsers(
         @Query('user') user?: string
@@ -28,8 +29,8 @@ export class UsersController {
         return this.userService.deleteUser(id);
     }
     @Put('/:id')
-    updateUserById(@Param('id') id: number, @Body() body: Users): Promise<Users> {
-        return this.userService.updateUserById(id, body);
+    updateUserById(@Param('id') id: number, @Body() userDto: UserDto): Promise<any> {
+        return this.userService.updateUserById(id, userDto);
     }
 
 

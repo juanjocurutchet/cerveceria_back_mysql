@@ -17,10 +17,10 @@ import { MenuDto } from './menu.dto';
 @Controller('menu/')
 export class MenuController {
   constructor(private readonly menuService: MenuService) {}
-  @Get('/:id')
+ @Get('/:id')
   getMenuById(@Param('id', new ParseIntPipe({
     errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE
-  })) id: number): Promise<MenuDto> {
+  })) id: number): Promise<any> {
     return this.menuService.getMenuById(id);
   }
   @Get()
