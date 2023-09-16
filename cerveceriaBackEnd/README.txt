@@ -1,0 +1,453 @@
+{
+  "menu": [
+    {
+      "title": "Milanesa con pure",
+      "category": "Menu",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Las clásicas y siempre ricas milanesas de carne acompañadas con puré. Elegidas por toda la familia.",
+      "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
+      "price": 2200,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 2
+    },
+    {
+      "title": "Ñoquis con Salsa Boloñesa",
+      "category": "Menu",
+      "img": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg",
+      "description": "Cómo hacer ñoquis con salsa boloñesa de manera fácil y con fotos del paso a paso. Receta de ñoquis o gnocchi de patata con salsa boloñesa.",
+      "ingredients": "albahaca, salsa boloñesa, papa, harina",
+      "price": 1700,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 3
+    },
+    {
+      "title": "Ravioles con Salsa Boloñesa",
+      "category": "Menu",
+      "img": "https://img-global.cpcdn.com/recipes/4d7d7d352d34d5bb/1200x630cq70/photo.jpg",
+      "description": "Ravioles a la Boloñesa. Receta de origen italiano de la región de la Boloña, caracterizada por la salsa de carne. La pasta de la masa y el nombre se ha internacionalizado aunque el origen esta en el Celeste Imperio de China.",
+      "ingredients": "planchas de ravioles de verdura, cebollitas, diente ajo, ají pimiento morrón rojo, tomate",
+      "price": 1500,
+      "valoration": 7,
+      "tipo": "Comida",
+      "id": 4
+    },
+    {
+      "title": "Arroz salteado con pollo y verduras",
+      "category": "Menu",
+      "img": "https://images.hola.com/imagenes/cocina/recetas/20210223184896/arroz-salteado-con-verduras/1-223-61/arroz-verduras-adobe-t.jpg",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Arroz de grano largo, Tomate, Pimiento rojo, Pimiento amarillo, Cebolleta, Judías verdes, Maíz, Aceite de oliva virgen, Sal, Pimienta, Salsa de soja, Zumo de lima, Perejil fresco",
+      "price": 1200,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "title": "Pollo al horno con papas",
+      "category": "Menu",
+      "img": "https://images.hola.com/imagenes/cocina/recetas/20210223184896/arroz-salteado-con-verduras/1-223-61/arroz-verduras-adobe-t.jpg",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Aceite, Caldo pollo, Mostaza, Orégano, Ajo, Ají, Pollo",
+      "price": 2200,
+      "valoration": 8,
+      "tipo": "Comida"
+    },
+    {
+      "id": 7,
+      "title": "Sorrentinos Rellenos de Pollo, Espinaca, Cebolla y Morrón",
+      "category": "Menu",
+      "img": "https://img-global.cpcdn.com/recipes/07ac00ac3fd6d3d1/1200x630cq70/photo.jpg",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Harina, Huevos, Espina, Morrón rojo, Cebolla, Queso Rallado, Huevo, Sal, Pimienta, Orégano, Aceite",
+      "price": 2500,
+      "valoration": 8,
+      "tipo": "Comida"
+    },
+    {
+      "id": 8,
+      "title": "Papas con pollo al verdeo",
+      "category": "Menu",
+      "img": "https://img-global.cpcdn.com/recipes/100c79faa15ed5db/1200x630cq70/photo.jpg",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Papas, Cebollas de verdeo, Crema de leche, Caldito de verdura, Aceite, Sal, Pimienta",
+      "price": 2800,
+      "valoration": 8,
+      "tipo": "Comida"
+    },
+    {
+      "id": 9,
+      "title": "IPA Green Beer",
+      "category": "Cerveza",
+      "img": "https://installbeer.com/cdn/shop/articles/cd9e36b9c5a1f1089bcbd5f310fb04d5-823438_1200x.jpg",
+      "description": "cerveza de alta graduación alcohólica (entre 5º y 7º) y color ámbar, caracterizada por su amargor (contiene a partir de 40 IBU), sus aromas intensos y una alta concentración de lúpulos",
+      "ingredients": "La EX1 IPA Sevebrau, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
+      "price": 500,
+      "valoration": "9",
+      "tipo": "bebida"
+    },
+    {
+      "id": 10,
+      "title": "Agua Mineral Green Water",
+      "category": "Agua",
+      "img": "https://static.vecteezy.com/system/resources/previews/002/618/240/large_2x/pouring-purified-fresh-drink-water-from-the-bottle-on-wooden-table-and-mineral-water-health-care-concept-photo.jpg",
+      "description": "El agua mineral de manantial Green Water, nace de un proceso de filtración natural, infiltrándose al corazón de la montaña y reposando en sus profundidades hace miles de años, para luego surgir pura y mineralizada",
+      "ingredients": "Contiene sodio, potasio, calcio, magnesio, cloro, azufre y fósforo, con grado de mineralización inferior a 1,5 gramos por litro.",
+      "price": 500,
+      "valoration": "10",
+      "tipo": "bebida"
+    },
+    {
+      "id": 11,
+      "title": "Vino Tinto Green Wine",
+      "category": "Vino",
+      "img": "https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg",
+      "description": "Color rojo violáceo intenso. De complejos aromas a frutas rojas, con delicados toques de madera. Suave en boca, equilibrado, con notas de ciruelas y guindas. Ideal para acompañar carnes rojas, pastas o pescados y carnes blancas con salsas especiadas",
+      "ingredients": "Calorías 85, Grasas totales 0 g, Ácidos grasos saturados 0 g, Colesterol 0 mg, Sodio 4 mg, Potasio 127 mg, Carbohidratos 2.6 g, Fibra alimentaria 0 g, Azúcares 0.6 g, Proteínas 0.1 g, Vitamina C 0 mg, Calcio 8 mg, Hierro 0.5 mg, Vitamina D 0 IU, Vitamina B6 0.1 mg, Vitamina B12 0 µg, Magnesio 12 mg",
+      "price": 1500,
+      "valoration": "8",
+      "tipo": "bebida"
+    },
+    {
+      "id": 12,
+      "title": "Cerveza Green Tacc",
+      "category": "Cerveza",
+      "img": "https://cervezaloro.com.ar/wp-content/uploads/2022/06/5-min.jpg",
+      "description": "Aroma muy interesante sus notas son dulces a plátano, no a la cascara sino a la fruta, con los aromas también a malta y a lúpulo floral",
+      "ingredients": "Sorgo malteado, Cáscara de arroz, Enzimas, Levadura Lager, Lúpulo, Irish moss.",
+      "price": 700,
+      "valoration": "10",
+      "tipo": "bebida"
+    },
+    {
+      "id": 13,
+      "title": "Cerveza IPA Green Beer",
+      "category": "Cerveza",
+      "img": "https://installbeer.com/cdn/shop/articles/cd9e36b9c5a1f1089bcbd5f310fb04d5-823438_1200x.jpg",
+      "description": "Cerveza de alta graduación alcohólica (entre 5º y 7º) y color ámbar, caracterizada por su amargor (contiene a partir de 40 IBU), sus aromas intensos y una alta concentración de lúpulos",
+      "ingredients": "La IPA Green Beer, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
+      "price": 500,
+      "valoration": "9",
+      "tipo": "bebida"
+    },
+    {
+      "id": 14,
+      "title": "Cerveza Pale Ale Green Beer",
+      "category": "Cerveza",
+      "img": "https://media.bigcrafters.com/wp-content/uploads/2022/05/28211625/Pack-3-Planet-pale-Ale-540.jpg",
+      "description": "Cerveza de color amarillo dorado intenso, determinado por el uso de maltas pálidas (pale) sin tueste, amarillo pálido del propio cereal.",
+      "ingredients": "Malta Maris Otter, Lupulo Amarillo, Levadura Nottingham",
+      "price": 900,
+      "valoration": "10",
+      "tipo": "bebida"
+    },
+    {
+      "title": "Sándwich de Carne Ahumada",
+      "category": "Sándwich",
+      "img": "https://www.tapasmagazine.es/wp-content/uploads/2021/10/Katz-Julio-2021-22-1200x800.jpg",
+      "description": "Un sándwich delicioso con carne ahumada, salsa barbacoa, cebolla morada y encurtidos, servido en pan de cerveza.",
+      "ingredients": "Carne ahumada, salsa barbacoa, cebolla morada, encurtidos, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 15
+    },
+    {
+      "title": "Sándwich de Pollo a la Parrilla",
+      "category": "Sándwich",
+      "img": "https://www.gourmet4life.com/image0428/cf/cf3f7305682c4aa68edf7d81dd2ef30e.jpg",
+      "description": "Un sándwich clásico con pechuga de pollo a la parrilla, lechuga, tomate y mayonesa, servido en pan de cerveza.",
+      "ingredients": "Pechuga de pollo a la parrilla, lechuga, tomate, mayonesa, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 16
+    },
+    {
+      "title": "Sándwich Cubano",
+      "category": "Sándwich",
+      "img": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_pv5iam8f1g_iStock-473336754-1024x683.jpg",
+      "description": "Un sándwich clásico con jamón, cerdo asado, queso suizo, mostaza y pepinillos, servido en pan cubano.",
+      "ingredients": "Jamón, cerdo asado, queso suizo, mostaza, pepinillos, pan cubano",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 17
+    },
+    {
+      "title": "Sándwich Reuben",
+      "category": "Sándwich",
+      "img": "https://comerbeber.com/archivos/imagen/2020/02/sandwich-reuben_cv_1200.jpg",
+      "description": "Un sándwich clásico con carne en conserva, sauerkraut, queso suizo y salsa rusa, servido en pan de centeno.",
+      "ingredients": "Carne en conserva, sauerkraut, queso suizo, salsa rusa, pan de centeno",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 18
+    },
+    {
+      "title": "Sándwich de Pavo Club",
+      "category": "Sándwich",
+      "img": "https://www.foodpal-app.com/uploads/images/meals/3699/clubsandwich-mit-putenbrust-und-avocado-600c2aa0265c6-800.jpg",
+      "description": "Un sándwich clásico con pavo asado, bacon, lechuga, tomate y mayonesa, servido en pan de cerveza y pan de molde.",
+      "ingredients": "Pavo asado, bacon, lechuga, tomate, mayonesa, pan de cerveza, pan de molde",
+      "price": 1500,
+      "valoration": 9,
+      "tipo": "Comida",
+      "id": 19
+    },
+    {
+      "title": "Pizza con jamón crudo ",
+      "category": "Sin TACC",
+      "img": "https://www.recetaslamasia.es/wp-content/uploads/2013/12/singluten_18.jpg",
+      "description": "Pizza elaborada con alimentos aprobados por la ANMAT y a la ACELA",
+      "ingredients": "Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
+      "price": 3500,
+      "valoration": "9",
+      "tipo": "Comida",
+      "id": 20
+    },
+    {
+      "title": "Hamburguesa simple ",
+      "category": "Sin TACC",
+      "img": "https://www.recetaslamasia.es/wp-content/uploads/2016/07/singluten_7.jpg",
+      "description": "Hamburguesa elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "ingredients": "Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
+      "price": 2500,
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 21
+    },
+    {
+      "title": "Milanesa con puré ",
+      "category": "Sin TACC",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Milanesa con puré elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "ingredients": "Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
+      "price": 2200,
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 22
+    },
+    {
+      "title": "Milanesa de merluza con papas fritas ",
+      "category": "Sin TACC",
+      "img": "https://jetextramar.com/wp-content/uploads/2021/07/empresa-de-alimentos-receta-de-patata-casera.jpg",
+      "description": "Filet de merluza con papas fritas elaborada con alimentos aprobados por la ANMAT y a ACELA",
+      "ingredients": "Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
+      "price": 2700,
+      "valoration": "10",
+      "tipo": "Comida",
+      "id": 23
+    },
+    {
+      "title": "Sándwich de Queso a la Parrilla",
+      "category": "Sándwich",
+      "img": "https://assets.unileversolutions.com/recipes-v2/117155.jpg",
+      "description": "Un sándwich clásico con una mezcla de quesos derretidos entre dos rebanadas de pan de cerveza.",
+      "ingredients": "Mezcla de quesos, mantequilla, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 24
+    },
+    {
+      "title": "Sándwich BLT",
+      "category": "Sándwich",
+      "img": "https://recetinas.com/wp-content/uploads/2022/05/sandwich-blt.jpg",
+      "description": "Un sándwich clásico con bacon, lechuga, tomate y mayonesa, servido en pan de cerveza.",
+      "ingredients": "Bacon, lechuga, tomate, mayonesa, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 25
+    },
+    {
+      "title": "Sándwich de Salchicha Bratwurst",
+      "category": "Sándwich",
+      "img": "https://previews.123rf.com/images/bhofack2/bhofack22012/bhofack2201200491/160844819-s%C3%A1ndwiches-caseros-de-salchicha-bratwurst-con-mostaza-y-chucrut.jpg",
+      "description": "Un sándwich clásico con salchicha bratwurst, cebolla caramelizada y mostaza, servido en pan de cerveza.",
+      "ingredients": "Salchicha bratwurst, cebolla caramelizada, mostaza, pan de cerveza",
+      "price": 1500,
+      "valoration": 7,
+      "tipo": "Comida",
+      "id": 26
+    },
+    {
+      "title": "Sándwich de Pescado Frito",
+      "category": "Sándwich",
+      "img": "https://comidaschilenas.com/wp-content/uploads/2019/08/Receta-de-s%C3%A1ndwich-de-pescado-frito.jpg",
+      "description": "Un sándwich clásico con filete de pescado frito, lechuga, tomate y salsa tártara, servido en pan de cerveza.",
+      "ingredients": "Filete de pescado frito, lechuga, tomate, salsa tártara, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 27
+    },
+    {
+      "title": "Sándwich de Verduras Asadas",
+      "category": "Sándwich",
+      "img": "https://gastroamantes.com/wp-content/uploads/2017/06/IMG_0013.jpg",
+      "description": "Un sándwich clásico con verduras asadas, queso de cabra y pesto, servido en pan de cerveza.",
+      "ingredients": "Verduras asadas, queso de cabra, pesto, pan de cerveza",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
+      "id": 28
+    },
+    {
+      "id": 30,
+      "title": "Ceviche Green Beer",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/11/rpm2Recurso-2.jpg",
+      "description": "Los ceviches más habituales suelen ser de pescados y mariscos, pero aquí te proponemos un exquisito ceviche, de hongos y vegetales.",
+      "ingredients": "hongos shitakes, salsa cevichera de ají amarillo, aceite de cilantro, palta, maíz cancha, coral de boniato",
+      "price": 2500,
+      "valoration": 2,
+      "tipo": "Comida"
+    },
+    {
+      "id": 31,
+      "title": "Berenjena Asada con Hummus de Garbanzo.",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9429.jpg",
+      "description": "Estas berenjenas asadas con hummus son un plato ligero y saludable",
+      "ingredients": "berenjena asada, miel de caña y miso, hummus de garbanzo, furikake, aceite pimentón picante, ensalada",
+      "price": 2800,
+      "valoration": 3,
+      "tipo": "Comida"
+    },
+    {
+      "id": 32,
+      "title": "Risotto de hongos trufado.",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_5971-2048x1365.jpeg",
+      "description": "El aceite de trufa le dará el punto elegante a un arroz blanco convencional que disfrutará de la cremosidad típica de cualquier risotto. Las hongos serán los encargados de ofrecer un nombre propio y un sabor muy conocido a este arroz.",
+      "ingredients": "hongos, aceite de trufa, mozzarella de cajú, verdeo, arroz al vino blanco",
+      "price": 3200,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 33,
+      "title": "Mousakka Griega.",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9455-1868x2048.jpg",
+      "description": "El musaka o musaca es un plato tradicional de los Balcanes y el Medio Oriente hecho a base de berenjena. La versión griega, que es la más conocida internacionalmente",
+      "ingredients": "lasaña de berenjena, boloñesa de hongos, bechamel de papa, tomate, ensalada verde, vinagreta de tamarindo",
+      "price": 3400,
+      "valoration": 5,
+      "tipo": "Comida"
+    },
+    {
+      "id": 34,
+      "title": "Katsu Sandwich",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/22112022-IMG_8915-1-scaled-e1670876642886-2048x1270.jpg",
+      "description": "Plato típico de la gastronomía japonesa en su versión vegetariana",
+      "ingredients": "Milanesa de portobello, pan lactal de papa, coleslaw, pepino encurtido, salsa tonkapsu, papas en hilos",
+      "price": 2600,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 35,
+      "title": "Pizza Margarita",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9797-scaled-e1670860615845.jpg",
+      "description": "La madre de todas las pizzas, la pizza Margarita , tomate, queso, pesto albahaca fresca y aceite de oliva virgen extra, sencilla y deliciosa",
+      "ingredients": "salsa de tomate, queso a base de cajú, pesto, albahaca",
+      "price": 3700,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 36,
+      "title": "Rolls Capresse",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/rpmRecurso-2.jpg",
+      "description": "Este pesto de 5 ingredientes pega fuerte. Con un potente sabor mediterráneo.",
+      "ingredients": "Tomates secos maserados en tsu, queso de cajú, palta, coronado con salsa pesto de semillas de calabaza",
+      "price": 3200,
+      "valoration": 3,
+      "tipo": "Comida"
+    },
+    {
+      "id": 37,
+      "title": "Pizza Funghi",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/07/IMG-8016-1-2048x1084.jpg",
+      "description": "Una pizza diferente a base de hongos, cebolla caramelizada y crema de Caju",
+      "ingredients": "crema de cajú, hongos asados, cebolla caramlizada, romero y oliva",
+      "price": 3800,
+      "valoration": 5,
+      "tipo": "Comida"
+    },
+    {
+      "id": 38,
+      "title": "Ensalada de la tierra",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9553-scaled-e1670877558211.jpg",
+      "description": "Un plato fresco, natural, liviano y sobre todo muy nutritivo",
+      "ingredients": "lentejas, zapallo rostizado, salsa harissa de ají panca, naranjas a vivo, almendras tostadas, queso tipo cabra, palta",
+      "price": 2800,
+      "valoration": 4,
+      "tipo": "Comida"
+    },
+    {
+      "id": 39,
+      "title": "Tortelones Marinara",
+      "category": "Comida Vegetariana",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_6028-2048x1365.jpeg",
+      "description": "Exquisita pasta rellena con salsa marinara y parmesano",
+      "ingredients": "rellenos de arveja, shio koji, salsa marinara, parmesano raw.",
+      "price": 3600,
+      "valoration": 5,
+      "tipo": "Comida"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "name": "Juan",
+      "lastName": "Pérez",
+      "user": "juanperez",
+      "password": "contraseña123",
+      "age": "1990-05-15"
+    },
+    {
+      "id": 3,
+      "name": "María",
+      "lastName": "González",
+      "user": "mariagonzalez",
+      "password": "mipassword",
+      "age": "1985-08-20"
+    },
+    {
+      "id": 4,
+      "name": "Carlos",
+      "lastName": "López",
+      "user": "carloslopez",
+      "password": "clave_secreta",
+      "age": "1995-02-10"
+    },
+    {
+      "id": 5,
+      "name": "Ana",
+      "lastName": "Martínez",
+      "user": "anamartinez",
+      "password": "mi_contraseña",
+      "age": "1988-11-30"
+    },
+    {
+      "id": 6,
+      "name": "Pedro",
+      "lastName": "Ramírez",
+      "user": "pedroramirez",
+      "password": "mipassword123",
+      "age": "1993-07-05"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import { Injectable, BadRequestException, NotFoundException } from '@nestjs/common';
-import { Menu } from './menu.interface';
 import { MenuDto } from './menu.dto';
 const BASE_URL = 'http://localhost:3031/menu/';
 @Injectable()
 export class MenuService {
-  async getMenuById(id: number): Promise<Menu> {
+  //get by id
+  async getMenuById(id: number): Promise<any> {
     const res = await fetch(BASE_URL + id);
     const parsed = await res.json();
     if (!Object.keys(parsed).length) throw new NotFoundException(`Usuario con id ${id} no existe`);
@@ -12,7 +12,8 @@ export class MenuService {
     return parsed;
   }
 
-  async getMenu(): Promise<Menu[]> {
+  //get all
+  async getMenu(): Promise<any> {
     const res = await fetch(BASE_URL);
     if (!res.ok) throw new BadRequestException("Fallo el fetch")
     const parsed = await res.json();
@@ -20,6 +21,7 @@ export class MenuService {
     return parsed;
   }
 
+  //get by query
   async getMenuSearch(query: any): Promise<MenuDto[]> {
     let results = await this.getMenu();
 
@@ -74,6 +76,7 @@ export class MenuService {
     return results;
   }
 
+  //create
   async createMenu(menu: MenuDto): Promise<MenuDto> {
     const id = await this.setId();
     const { title, category, img, description, ingredients, price, valoration, tipo } = menu
@@ -89,6 +92,8 @@ export class MenuService {
     const parsed = res.json();
     return parsed;
   }
+
+  //delete
   async deleteMenu(id: number): Promise<void> {
     const comprobacion = await this.getMenu();
     const res = await fetch(BASE_URL + id, {
@@ -97,6 +102,8 @@ export class MenuService {
     if (!res.ok) throw new Error('Hubo un problema al borrar el menu');
 
   }
+
+  //update by id
   async updateMenuById(id: number, body: MenuDto): Promise<any> {
     const isMenu = await this.getMenuById(id);
     const updatedMenu = {      
