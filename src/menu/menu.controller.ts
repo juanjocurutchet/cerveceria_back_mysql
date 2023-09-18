@@ -30,13 +30,12 @@ export class MenuController {
 
   @Post()
   createMenu(@Body() menuDto: MenuDto): Promise<any> {
-    console.log(menuDto);
-    
+    console.log(menuDto); 
     return this.menuService.createMenu(menuDto);
   }
   @Delete('/:id')
   @HttpCode(204)
-  deleteMenu(@Param('id') id: number): Promise<void> {
+  deleteMenu(@Param('id', ParseIntPipe) id: number): Promise<void> {
     return this.menuService.deleteMenu(id);
   }
 

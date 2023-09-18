@@ -7,7 +7,7 @@ export class MenuService {
   async getMenuById(id: number): Promise<any> {
     const res = await fetch(BASE_URL + id);
     const parsed = await res.json();
-    if (!Object.keys(parsed).length) throw new NotFoundException(`Usuario con id ${id} no existe`);
+    if (!Object.keys(parsed).length) throw new NotFoundException(`Menu con id ${id} no existe`);
 
     return parsed;
   }
