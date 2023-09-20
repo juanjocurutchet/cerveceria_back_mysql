@@ -1,17 +1,6 @@
 {
   "menu": [
     {
-      "title": "Milanesa con pure",
-      "category": "Menu",
-      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
-      "description": "Las clásicas y siempre ricas milanesas de carne acompañadas con puré. Elegidas por toda la familia.",
-      "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
-      "price": 2200,
-      "valoration": 8,
-      "tipo": "clasica",
-      "id": 2
-    },
-    {
       "title": "Ñoquis con Salsa Boloñesa",
       "category": "Menu",
       "img": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg",
@@ -28,8 +17,8 @@
       "img": "https://img-global.cpcdn.com/recipes/4d7d7d352d34d5bb/1200x630cq70/photo.jpg",
       "description": "Ravioles a la Boloñesa. Receta de origen italiano de la región de la Boloña, caracterizada por la salsa de carne. La pasta de la masa y el nombre se ha internacionalizado aunque el origen esta en el Celeste Imperio de China.",
       "ingredients": "planchas de ravioles de verdura, cebollitas, diente ajo, ají pimiento morrón rojo, tomate",
-      "price": 1500,
-      "valoration": 7,
+      "price": "1500",
+      "valoration": "5",
       "tipo": "clasica",
       "id": 4
     },
@@ -78,15 +67,15 @@
       "tipo": "clasica"
     },
     {
-      "id": 9,
       "title": "IPA Green Beer",
       "category": "Cerveza",
       "img": "https://installbeer.com/cdn/shop/articles/cd9e36b9c5a1f1089bcbd5f310fb04d5-823438_1200x.jpg",
       "description": "cerveza de alta graduación alcohólica (entre 5º y 7º) y color ámbar, caracterizada por su amargor (contiene a partir de 40 IBU), sus aromas intensos y una alta concentración de lúpulos",
       "ingredients": "La EX1 IPA Sevebrau, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
-      "price": 500,
+      "price": "500",
       "valoration": "9",
-      "tipo": "bebida"
+      "tipo": "bebida",
+      "id": 9
     },
     {
       "id": 10,
@@ -281,8 +270,8 @@
       "img": "https://gastroamantes.com/wp-content/uploads/2017/06/IMG_0013.jpg",
       "description": "Un sándwich clásico con verduras asadas, queso de cabra y pesto, servido en pan de cerveza.",
       "ingredients": "Verduras asadas, queso de cabra, pesto, pan de cerveza",
-      "price": 1500,
-      "valoration": 8,
+      "price": "1500",
+      "valoration": "8",
       "tipo": "sandwich",
       "id": 28
     },
@@ -304,7 +293,7 @@
       "description": "Estas berenjenas asadas con hummus son un plato ligero y saludable",
       "ingredients": "berenjena asada, miel de caña y miso, hummus de garbanzo, furikake, aceite pimentón picante, ensalada",
       "price": "2800",
-      "valoration": "3",
+      "valoration": "5",
       "tipo": "vegetariana",
       "id": 31
     },
@@ -406,6 +395,28 @@
       "price": "1500",
       "valoration": "8",
       "tipo": "bebida"
+    },
+    {
+      "id": 41,
+      "title": "Milanesa con pure",
+      "category": "Menu",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Las clásicas y siempre ricas milanesas de carne acompañadas con puré. Elegidas por toda la familia.",
+      "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
+      "price": "2200",
+      "valoration": "8",
+      "tipo": "clasica"
+    },
+    {
+      "title": "Choripan",
+      "category": "Sándwich",
+      "img": "https://t2.uc.ltmcdn.com/es/posts/7/7/5/como_hacer_choripan_42577_orig.jpg",
+      "description": "El mejor choripan, para chuparse los dedos",
+      "ingredients": "Chorizo, pan, verdeo, salsa criolla",
+      "price": "1200",
+      "valoration": "8",
+      "tipo": "sandwich",
+      "id": 42
     }
   ],
   "users": [
