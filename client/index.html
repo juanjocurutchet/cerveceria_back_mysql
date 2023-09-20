@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./estilo/index.css">
+  <link rel="stylesheet" href="./index.css">
 
   <title>Nest clase 1 index</title>
 </head>
@@ -13,6 +13,39 @@
 <body>
   <header>
     <h1>BIENVENIDOS A LA API DEL GRUPO 2</h1>
+    <p>La idea de esta api es gestionar datos de un menu de una cervecería y una lista de usuarios.</p>
+    <p>Esta api cuenta con una lista de objetos dentro de "/menu" con esta disposición:</p>
+    <p class="objeto"> {
+      <samp>id: number;</samp>
+      <samp>title: string;</samp>
+      <samp>category: string;</samp>
+      <samp>img: string;</samp>
+      <samp>description: string;</samp>
+      <samp>ingredients: string;</samp>
+      <samp>price: string;</samp>
+      <samp>valoration: string;</samp>
+      <samp>tipo: string;</samp>
+  }</p>
+  <p>y otra lista de objetos dentro de "/users" con esta disposición:</p>
+  <p class="objeto">{
+    <samp> number;</samp>
+    <samp>name: string;</samp>
+    <samp>lastName: string;</samp>
+    <samp>user: string;</samp>
+    <samp>email: string;</samp>
+    <samp>password: string;</samp>
+    <samp>age: string;</samp>
+}</p>
+<p>Cada lista tiene metodos de lectura GET y GET+id, metodos de escritura POST, de edición PUT y de eliminación DELETE.
+  También posee busqueda por Query, con cada uno de los campos en el caso de menu, y Query de user en la lista de users.
+</p>
+<p>La api se carga en el puerto localhost:3000 y la base de dato, 
+  que es un elemento json se carga en el puerto localhost:3031 con la palabra clave db</p>
+  <p>La api esta tipada con tecnología "dto" va a ignorar cualquier dato que no corresponda con los objetos anteriormente
+    mencionados, pero si falta algun campo mencionado, o esta tipado de diferente manera va a devolver un error 400. 
+    En la carga y la actualización las id de ambos objetos son ignoradas. Son generadas automaticamente por la api.
+  </p>
+  <p class="objeto">Integrantes del grupo 2: Carla Arean, Juan Jose Curutchet, Facundo Alvarez Torriglia y Andrés Coda</p>
   </header>
 </body>
 </html>
