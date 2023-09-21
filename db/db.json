@@ -381,9 +381,42 @@
       "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_6028-2048x1365.jpeg",
       "description": "Exquisita pasta rellena con salsa marinara y parmesano",
       "ingredients": "rellenos de arveja, shio koji, salsa marinara, parmesano raw.",
-      "price": 3600,
-      "valoration": 5,
-      "tipo": "Comida"
+      "price": "3600",
+      "valoration": "5",
+      "tipo": "vegetariana",
+    },
+    {
+      "title": "Vino Tinto Green Wine",
+      "category": "Vino",
+      "img": "https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg",
+      "description": "Color rojo violáceo intenso. De complejos aromas a frutas rojas, con delicados toques de madera. Suave en boca, equilibrado, con notas de ciruelas y guindas. Ideal para acompañar carnes rojas, pastas o pescados y carnes blancas con salsas especiadas",
+      "ingredients": "Calorías 85, Grasas totales 0 g, Ácidos grasos saturados 0 g, Colesterol 0 mg, Sodio 4 mg, Potasio 127 mg, Carbohidratos 2.6 g, Fibra alimentaria 0 g, Azúcares 0.6 g, Proteínas 0.1 g, Vitamina C 0 mg, Calcio 8 mg, Hierro 0.5 mg, Vitamina D 0 IU, Vitamina B6 0.1 mg, Vitamina B12 0 µg, Magnesio 12 mg",
+      "price": "1200",
+      "valoration": "10",
+      "tipo": "bebida",
+      "id": 40
+    },
+    {
+      "id": 41,
+      "title": "Milanesa con pure",
+      "category": "Menu",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Las clásicas y siempre ricas milanesas de carne acompañadas con puré. Elegidas por toda la familia.",
+      "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
+      "price": "2200",
+      "valoration": "8",
+      "tipo": "clasica"
+    },
+    {
+      "title": "Choripan",
+      "category": "Sándwich",
+      "img": "https://t2.uc.ltmcdn.com/es/posts/7/7/5/como_hacer_choripan_42577_orig.jpg",
+      "description": "El mejor choripan, para chuparse los dedos",
+      "ingredients": "Chorizo, pan, verdeo, salsa criolla",
+      "price": "1200",
+      "valoration": "8",
+      "tipo": "sandwich",
+      "id": 42
     }
   ],
   "users": [
