@@ -1,25 +1,14 @@
 {
   "menu": [
     {
-      "title": "Ñoquis con Salsa Boloñesa",
-      "category": "Menu",
-      "img": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg",
-      "description": "Cómo hacer ñoquis con salsa boloñesa de manera fácil y con fotos del paso a paso. Receta de ñoquis o gnocchi de patata con salsa boloñesa.",
-      "ingredients": "albahaca, salsa boloñesa, papa, harina",
-      "price": 1700,
-      "valoration": 8,
-      "tipo": "clasica",
-      "id": 3
-    },
-    {
       "title": "Ravioles con Salsa Boloñesa",
       "category": "Menu",
       "img": "https://img-global.cpcdn.com/recipes/4d7d7d352d34d5bb/1200x630cq70/photo.jpg",
       "description": "Ravioles a la Boloñesa. Receta de origen italiano de la región de la Boloña, caracterizada por la salsa de carne. La pasta de la masa y el nombre se ha internacionalizado aunque el origen esta en el Celeste Imperio de China.",
       "ingredients": "planchas de ravioles de verdura, cebollitas, diente ajo, ají pimiento morrón rojo, tomate",
       "price": "1500",
-      "valoration": "5",
-      "tipo": "clasica",
+      "valoration": "8",
+      "tipo": "carne",
       "id": 4
     },
     {
@@ -30,7 +19,7 @@
       "ingredients": "Arroz de grano largo, Tomate, Pimiento rojo, Pimiento amarillo, Cebolleta, Judías verdes, Maíz, Aceite de oliva virgen, Sal, Pimienta, Salsa de soja, Zumo de lima, Perejil fresco",
       "price": 1200,
       "valoration": 8,
-      "tipo": "clasica",
+      "tipo": "Comida",
       "id": 5
     },
     {
@@ -42,7 +31,7 @@
       "ingredients": "Aceite, Caldo pollo, Mostaza, Orégano, Ajo, Ají, Pollo",
       "price": 2200,
       "valoration": 8,
-      "tipo": "clasica"
+      "tipo": "Comida"
     },
     {
       "id": 7,
@@ -53,29 +42,29 @@
       "ingredients": "Harina, Huevos, Espina, Morrón rojo, Cebolla, Queso Rallado, Huevo, Sal, Pimienta, Orégano, Aceite",
       "price": 2500,
       "valoration": 8,
-      "tipo": "clasica"
+      "tipo": "Comida"
     },
     {
-      "id": 8,
-      "title": "Papas con pollo al verdeo",
+      "title": "Ñoquis a la bolognesa",
       "category": "Menu",
-      "img": "https://img-global.cpcdn.com/recipes/100c79faa15ed5db/1200x630cq70/photo.jpg",
-      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
-      "ingredients": "Papas, Cebollas de verdeo, Crema de leche, Caldito de verdura, Aceite, Sal, Pimienta",
-      "price": 2800,
-      "valoration": 8,
-      "tipo": "clasica"
+      "img": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg",
+      "description": "Cómo hacer ñoquis con salsa boloñesa de manera fácil y con fotos del paso a paso. Receta de ñoquis o gnocchi de patata con salsa boloñesa.",
+      "ingredients": "albahaca, salsa boloñesa, papa, harina",
+      "price": "1700",
+      "valoration": "8",
+      "tipo": "clasica",
+      "id": 8
     },
     {
+      "id": 9,
       "title": "IPA Green Beer",
       "category": "Cerveza",
       "img": "https://installbeer.com/cdn/shop/articles/cd9e36b9c5a1f1089bcbd5f310fb04d5-823438_1200x.jpg",
       "description": "cerveza de alta graduación alcohólica (entre 5º y 7º) y color ámbar, caracterizada por su amargor (contiene a partir de 40 IBU), sus aromas intensos y una alta concentración de lúpulos",
       "ingredients": "La EX1 IPA Sevebrau, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
-      "price": "500",
-      "valoration": "8",
-      "tipo": "bebida",
-      "id": 9
+      "price": 500,
+      "valoration": "9",
+      "tipo": "bebida"
     },
     {
       "id": 10,
@@ -86,6 +75,17 @@
       "ingredients": "Contiene sodio, potasio, calcio, magnesio, cloro, azufre y fósforo, con grado de mineralización inferior a 1,5 gramos por litro.",
       "price": 500,
       "valoration": "10",
+      "tipo": "bebida"
+    },
+    {
+      "id": 11,
+      "title": "Vino Tinto Green Wine",
+      "category": "Vino",
+      "img": "https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg",
+      "description": "Color rojo violáceo intenso. De complejos aromas a frutas rojas, con delicados toques de madera. Suave en boca, equilibrado, con notas de ciruelas y guindas. Ideal para acompañar carnes rojas, pastas o pescados y carnes blancas con salsas especiadas",
+      "ingredients": "Calorías 85, Grasas totales 0 g, Ácidos grasos saturados 0 g, Colesterol 0 mg, Sodio 4 mg, Potasio 127 mg, Carbohidratos 2.6 g, Fibra alimentaria 0 g, Azúcares 0.6 g, Proteínas 0.1 g, Vitamina C 0 mg, Calcio 8 mg, Hierro 0.5 mg, Vitamina D 0 IU, Vitamina B6 0.1 mg, Vitamina B12 0 µg, Magnesio 12 mg",
+      "price": 1500,
+      "valoration": "8",
       "tipo": "bebida"
     },
     {
@@ -129,7 +129,7 @@
       "ingredients": "Carne ahumada, salsa barbacoa, cebolla morada, encurtidos, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 15
     },
     {
@@ -140,7 +140,7 @@
       "ingredients": "Pechuga de pollo a la parrilla, lechuga, tomate, mayonesa, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 16
     },
     {
@@ -151,7 +151,7 @@
       "ingredients": "Jamón, cerdo asado, queso suizo, mostaza, pepinillos, pan cubano",
       "price": 1500,
       "valoration": 8,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 17
     },
     {
@@ -162,7 +162,7 @@
       "ingredients": "Carne en conserva, sauerkraut, queso suizo, salsa rusa, pan de centeno",
       "price": 1500,
       "valoration": 8,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 18
     },
     {
@@ -173,7 +173,7 @@
       "ingredients": "Pavo asado, bacon, lechuga, tomate, mayonesa, pan de cerveza, pan de molde",
       "price": 1500,
       "valoration": 9,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 19
     },
     {
@@ -184,7 +184,7 @@
       "ingredients": "Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
       "price": 3500,
       "valoration": "9",
-      "tipo": "sintacc",
+      "tipo": "Comida",
       "id": 20
     },
     {
@@ -195,7 +195,7 @@
       "ingredients": "Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
       "price": 2500,
       "valoration": "10",
-      "tipo": "sintacc",
+      "tipo": "Comida",
       "id": 21
     },
     {
@@ -206,7 +206,7 @@
       "ingredients": "Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
       "price": 2200,
       "valoration": "10",
-      "tipo": "sintacc",
+      "tipo": "Comida",
       "id": 22
     },
     {
@@ -217,7 +217,7 @@
       "ingredients": "Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
       "price": 2700,
       "valoration": "10",
-      "tipo": "sintacc",
+      "tipo": "Comida",
       "id": 23
     },
     {
@@ -228,7 +228,7 @@
       "ingredients": "Mezcla de quesos, mantequilla, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 24
     },
     {
@@ -239,7 +239,7 @@
       "ingredients": "Bacon, lechuga, tomate, mayonesa, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 25
     },
     {
@@ -250,7 +250,7 @@
       "ingredients": "Salchicha bratwurst, cebolla caramelizada, mostaza, pan de cerveza",
       "price": 1500,
       "valoration": 7,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 26
     },
     {
@@ -261,7 +261,7 @@
       "ingredients": "Filete de pescado frito, lechuga, tomate, salsa tártara, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "sandwich",
+      "tipo": "Comida",
       "id": 27
     },
     {
@@ -270,120 +270,120 @@
       "img": "https://gastroamantes.com/wp-content/uploads/2017/06/IMG_0013.jpg",
       "description": "Un sándwich clásico con verduras asadas, queso de cabra y pesto, servido en pan de cerveza.",
       "ingredients": "Verduras asadas, queso de cabra, pesto, pan de cerveza",
-      "price": "1500",
-      "valoration": "8",
-      "tipo": "sandwich",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "Comida",
       "id": 28
     },
     {
+      "id": 30,
       "title": "Ceviche Green Beer",
       "category": "Comida Vegetariana",
-      "img": "https://www.thatsmags.com/image/view/201707/buenaonda.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/11/rpm2Recurso-2.jpg",
       "description": "Los ceviches más habituales suelen ser de pescados y mariscos, pero aquí te proponemos un exquisito ceviche, de hongos y vegetales.",
       "ingredients": "hongos shitakes, salsa cevichera de ají amarillo, aceite de cilantro, palta, maíz cancha, coral de boniato",
-      "price": "2500",
-      "valoration": "2",
-      "tipo": "vegetariana",
-      "id": 30
+      "price": 2500,
+      "valoration": 2,
+      "tipo": "Comida"
     },
     {
-      "title": "Berenjena Asada con Hummus de Garbanzo",
+      "id": 31,
+      "title": "Berenjena Asada con Hummus de Garbanzo.",
       "category": "Comida Vegetariana",
-      "img": "https://deliciaskitchen.b-cdn.net/wp-content/uploads/2015/12/Berenjenas-asadas-con-hummus-y-menta_-1170x780.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9429.jpg",
       "description": "Estas berenjenas asadas con hummus son un plato ligero y saludable",
       "ingredients": "berenjena asada, miel de caña y miso, hummus de garbanzo, furikake, aceite pimentón picante, ensalada",
-      "price": "2800",
-      "valoration": "5",
-      "tipo": "vegetariana",
-      "id": 31
+      "price": 2800,
+      "valoration": 3,
+      "tipo": "Comida"
     },
     {
-      "title": "Risotto de hongos trufado",
+      "id": 32,
+      "title": "Risotto de hongos trufado.",
       "category": "Comida Vegetariana",
-      "img": "https://www.rionegro.com.ar/wp-content/uploads/2019/06/risotto-de-ceps-775.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_5971-2048x1365.jpeg",
       "description": "El aceite de trufa le dará el punto elegante a un arroz blanco convencional que disfrutará de la cremosidad típica de cualquier risotto. Las hongos serán los encargados de ofrecer un nombre propio y un sabor muy conocido a este arroz.",
       "ingredients": "hongos, aceite de trufa, mozzarella de cajú, verdeo, arroz al vino blanco",
-      "price": "3200",
-      "valoration": "4",
-      "tipo": "vegetariana",
-      "id": 32
+      "price": 3200,
+      "valoration": 4,
+      "tipo": "Comida"
     },
     {
-      "title": "Mousakka Griega",
+      "id": 33,
+      "title": "Mousakka Griega.",
       "category": "Comida Vegetariana",
-      "img": "https://1.bp.blogspot.com/-UB7UOb5xDH8/XnHl4hwBWYI/AAAAAAAGIWI/udyr64oXLUgnbxYx95iqd88XF5WmhSUtwCLcBGAsYHQ/s640/mousaka_vegetariana002.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9455-1868x2048.jpg",
       "description": "El musaka o musaca es un plato tradicional de los Balcanes y el Medio Oriente hecho a base de berenjena. La versión griega, que es la más conocida internacionalmente",
       "ingredients": "lasaña de berenjena, boloñesa de hongos, bechamel de papa, tomate, ensalada verde, vinagreta de tamarindo",
-      "price": "3400",
-      "valoration": "5",
-      "tipo": "vegetariana",
-      "id": 33
+      "price": 3400,
+      "valoration": 5,
+      "tipo": "Comida"
     },
     {
+      "id": 34,
       "title": "Katsu Sandwich",
       "category": "Comida Vegetariana",
-      "img": "https://veggiekinsblog.com/wp-content/uploads/2022/08/Katsu-Sando-Veggiekins-Blog-3-scaled.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/22112022-IMG_8915-1-scaled-e1670876642886-2048x1270.jpg",
       "description": "Plato típico de la gastronomía japonesa en su versión vegetariana",
       "ingredients": "Milanesa de portobello, pan lactal de papa, coleslaw, pepino encurtido, salsa tonkapsu, papas en hilos",
-      "price": "2600",
-      "valoration": "4",
-      "tipo": "vegetariana",
-      "id": 34
+      "price": 2600,
+      "valoration": 4,
+      "tipo": "Comida"
     },
     {
+      "id": 35,
       "title": "Pizza Margarita",
       "category": "Comida Vegetariana",
-      "img": "https://s2.abcstatics.com/media/gurmesevilla/2013/04/pizza-margarita.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9797-scaled-e1670860615845.jpg",
       "description": "La madre de todas las pizzas, la pizza Margarita , tomate, queso, pesto albahaca fresca y aceite de oliva virgen extra, sencilla y deliciosa",
       "ingredients": "salsa de tomate, queso a base de cajú, pesto, albahaca",
-      "price": "3700",
-      "valoration": "4",
-      "tipo": "vegetariana",
-      "id": 35
+      "price": 3700,
+      "valoration": 4,
+      "tipo": "Comida"
     },
     {
+      "id": 36,
       "title": "Rolls Capresse",
       "category": "Comida Vegetariana",
-      "img": "https://www.mantitlement.com/wp-content/uploads/2022/04/caprese-pizza-pinwheels-feature.jpeg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/rpmRecurso-2.jpg",
       "description": "Este pesto de 5 ingredientes pega fuerte. Con un potente sabor mediterráneo.",
       "ingredients": "Tomates secos maserados en tsu, queso de cajú, palta, coronado con salsa pesto de semillas de calabaza",
-      "price": "3200",
-      "valoration": "3",
-      "tipo": "vegetariana",
-      "id": 36
+      "price": 3200,
+      "valoration": 3,
+      "tipo": "Comida"
     },
     {
+      "id": 37,
       "title": "Pizza Funghi",
       "category": "Comida Vegetariana",
-      "img": "https://imag.bonviveur.com/pizza-funghi.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/07/IMG-8016-1-2048x1084.jpg",
       "description": "Una pizza diferente a base de hongos, cebolla caramelizada y crema de Caju",
       "ingredients": "crema de cajú, hongos asados, cebolla caramlizada, romero y oliva",
-      "price": "3800",
-      "valoration": "5",
-      "tipo": "vegetariana",
-      "id": 37
+      "price": 3800,
+      "valoration": 5,
+      "tipo": "Comida"
     },
     {
+      "id": 38,
       "title": "Ensalada de la tierra",
       "category": "Comida Vegetariana",
-      "img": "https://img-global.cpcdn.com/recipes/4e85b513bbe168b9/680x482cq70/ensalada-de-la-tierra-foto-principal.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9553-scaled-e1670877558211.jpg",
       "description": "Un plato fresco, natural, liviano y sobre todo muy nutritivo",
       "ingredients": "lentejas, zapallo rostizado, salsa harissa de ají panca, naranjas a vivo, almendras tostadas, queso tipo cabra, palta",
-      "price": "2800",
-      "valoration": "4",
-      "tipo": "vegetariana",
-      "id": 38
+      "price": 2800,
+      "valoration": 4,
+      "tipo": "Comida"
     },
     {
+      "id": 39,
       "title": "Tortelones Marinara",
       "category": "Comida Vegetariana",
-      "img": "https://modernmealmakeover.com/wp-content/uploads/2020/06/tortellini-13-3.jpg",
+      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_6028-2048x1365.jpeg",
       "description": "Exquisita pasta rellena con salsa marinara y parmesano",
       "ingredients": "rellenos de arveja, shio koji, salsa marinara, parmesano raw.",
       "price": "3600",
       "valoration": "5",
-      "tipo": "vegetariana",
-      "id": 39
+      "tipo": "vegetariana"
     },
     {
       "title": "Vino Tinto Green Wine",
@@ -475,22 +475,22 @@
       "age": "1988-11-30"
     },
     {
-      "name": "Facundo",
-      "lastName": "Martínez",
-      "user": "anamartinez",
+      "name": "Carla",
+      "lastName": "Arean",
+      "user": "CAA2782",
       "email": "juan@jsa.com",
-      "password": "mi_contraseña",
-      "age": "1988-11-30",
-      "id": 8
+      "password": "contraseña123",
+      "age": "1979-12-12",
+      "id": 9
     },
     {
-      "name": "roman",
-      "lastName": "roman",
-      "email": "roman@gmail.com",
-      "user": "roman22",
-      "password": "roman",
-      "age": "28",
-      "id": 9
+      "name": "Carla Andrea",
+      "lastName": "Arean",
+      "user": "CAA2782",
+      "email": "juan@jsa.com",
+      "password": "CAA27821713",
+      "age": "1979-12-12",
+      "id": 10
     }
   ]
 }
