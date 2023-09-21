@@ -73,7 +73,7 @@
       "description": "cerveza de alta graduación alcohólica (entre 5º y 7º) y color ámbar, caracterizada por su amargor (contiene a partir de 40 IBU), sus aromas intensos y una alta concentración de lúpulos",
       "ingredients": "La EX1 IPA Sevebrau, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
       "price": "500",
-      "valoration": "9",
+      "valoration": "8",
       "tipo": "bebida",
       "id": 9
     },
@@ -386,15 +386,15 @@
       "id": 39
     },
     {
-      "id": 40,
       "title": "Vino Tinto Green Wine",
       "category": "Vino",
       "img": "https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg",
       "description": "Color rojo violáceo intenso. De complejos aromas a frutas rojas, con delicados toques de madera. Suave en boca, equilibrado, con notas de ciruelas y guindas. Ideal para acompañar carnes rojas, pastas o pescados y carnes blancas con salsas especiadas",
       "ingredients": "Calorías 85, Grasas totales 0 g, Ácidos grasos saturados 0 g, Colesterol 0 mg, Sodio 4 mg, Potasio 127 mg, Carbohidratos 2.6 g, Fibra alimentaria 0 g, Azúcares 0.6 g, Proteínas 0.1 g, Vitamina C 0 mg, Calcio 8 mg, Hierro 0.5 mg, Vitamina D 0 IU, Vitamina B6 0.1 mg, Vitamina B12 0 µg, Magnesio 12 mg",
-      "price": "1500",
-      "valoration": "8",
-      "tipo": "bebida"
+      "price": "1200",
+      "valoration": "10",
+      "tipo": "bebida",
+      "id": 40
     },
     {
       "id": 41,
