@@ -383,7 +383,7 @@
       "ingredients": "rellenos de arveja, shio koji, salsa marinara, parmesano raw.",
       "price": "3600",
       "valoration": "5",
-      "tipo": "vegetariana",
+      "tipo": "vegetariana"
     },
     {
       "title": "Vino Tinto Green Wine",
@@ -478,6 +478,7 @@
       "name": "Carla",
       "lastName": "Arean",
       "user": "CAA2782",
+      "email": "juan@jsa.com",
       "password": "contraseña123",
       "age": "1979-12-12",
       "id": 9
@@ -486,8 +487,9 @@
       "name": "Carla Andrea",
       "lastName": "Arean",
       "user": "CAA2782",
+      "email": "juan@jsa.com",
       "password": "CAA27821713",
-      "age": "43",
+      "age": "1979-12-12",
       "id": 10
     }
   ]
