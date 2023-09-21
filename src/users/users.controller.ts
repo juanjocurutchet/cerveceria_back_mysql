@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, HttpCode, Query, Delete,Put } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, HttpCode, Query, Delete,Put, ParseIntPipe, HttpStatus } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { UserDto } from './user.dto';
 
@@ -6,7 +6,7 @@ import { UserDto } from './user.dto';
 export class UsersController {
     constructor(private readonly userService: UsersService) { }
     @Get('/:id')
-    getUserById(@Param('id') id: number): Promise<any> {
+    getUserById(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number): Promise<any> {
         return this.userService.getUserById(id)
     }
 
@@ -25,11 +25,11 @@ export class UsersController {
     
     @Delete('/:id')
     @HttpCode(204)
-    deleteUser(@Param('id') id: number): Promise<void> {
+    deleteUser(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number): Promise<void> {
         return this.userService.deleteUser(id);
     }
     @Put('/:id')
-    updateUserById(@Param('id') id: number, @Body() userDto: UserDto): Promise<any> {
+    updateUserById(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number, @Body() userDto: UserDto): Promise<any> {
         return this.userService.updateUserById(id, userDto);
     }
 
