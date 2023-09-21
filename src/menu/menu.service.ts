@@ -95,17 +95,17 @@ export class MenuService {
 
   //delete
   async deleteMenu(id: number): Promise<void> {
-    const comprobacion = await this.getMenu();
+    const comprobacion = await  this.getMenuById(id);
     const res = await fetch(BASE_URL + id, {
       method: 'DELETE',
     });
-    if (!res.ok) throw new NotFoundException({message: 'Hubo un problema al borrar el menu. Verifique que los datos ingresados sean los correctos'});
+    if (!res.ok) throw new Error('Hubo un problema al borrar el menu');
 
   }
 
   //update by id
   async updateMenuById(id: number, body: MenuDto): Promise<any> {
-   const isMenu = await this.getMenuById(id); 
+    const isMenu = await this.getMenuById(id);
     const updatedMenu = {      
       title: body.title,
       category: body.category,
