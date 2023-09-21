@@ -56,22 +56,23 @@ export class UsersService {
 
     async updateUserById(id: number, userDto: UserDto): Promise<any> {
         const isUser = await this.getUserById(id);
-        const updatedUser = {            
-            name: userDto.name,
-            lastName: userDto.lastName,
-            user: userDto.user,
-            password: userDto.password,
-            age: userDto.age,            
-        };
-        const res = await fetch(BASE_URL + id, {
-            method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(updatedUser),
-        });
-        const parsed = await res.json();
-        return parsed;
-    }
+                  const updatedUser = {            
+                name: userDto.name,
+                lastName: userDto.lastName,
+                user: userDto.user,
+                password: userDto.password,
+                age: userDto.age,            
+            };
+            
+            const res = await fetch(BASE_URL + id, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(updatedUser),
+            });
+            const parsed = await res.json();
+            return parsed;
+        }
    
 }
