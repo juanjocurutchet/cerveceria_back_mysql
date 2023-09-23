@@ -8,7 +8,7 @@
       "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
       "price": 2200,
       "valoration": 8,
-      "tipo": "Clasica",
+      "tipo": "clasica",
       "id": 2
     },
     {
@@ -19,7 +19,7 @@
       "ingredients": "albahaca, salsa boloñesa, papa, harina",
       "price": 1700,
       "valoration": 8,
-      "tipo":"Clasica",
+      "tipo":"clasica",
       "id": 3
     },
     {
@@ -30,7 +30,7 @@
       "ingredients": "planchas de ravioles de verdura, cebollitas, diente ajo, ají pimiento morrón rojo, tomate",
       "price": 1500,
       "valoration": 7,
-      "tipo": "Clasica",
+      "tipo": "clasica",
       "id": 4
     },
     {
@@ -41,7 +41,7 @@
       "ingredients": "Arroz de grano largo, Tomate, Pimiento rojo, Pimiento amarillo, Cebolleta, Judías verdes, Maíz, Aceite de oliva virgen, Sal, Pimienta, Salsa de soja, Zumo de lima, Perejil fresco",
       "price": 1200,
       "valoration": 8,
-      "tipo": "Clasica",
+      "tipo": "clasica",
       "id": 5
     },
     {
@@ -53,7 +53,7 @@
       "ingredients": "Aceite, Caldo pollo, Mostaza, Orégano, Ajo, Ají, Pollo",
       "price": 2200,
       "valoration": 8,
-      "tipo":  "Clasica"
+      "tipo":  "clasica"
     },
     {
       "id": 7,
@@ -64,7 +64,7 @@
       "ingredients": "Harina, Huevos, Espina, Morrón rojo, Cebolla, Queso Rallado, Huevo, Sal, Pimienta, Orégano, Aceite",
       "price": 2500,
       "valoration": 8,
-      "tipo": "Clasica"
+      "tipo": "clasica"
     },
     {
       "id": 8,
@@ -75,7 +75,7 @@
       "ingredients": "Papas, Cebollas de verdeo, Crema de leche, Caldito de verdura, Aceite, Sal, Pimienta",
       "price": 2800,
       "valoration": 8,
-      "tipo": "Clasica"
+      "tipo": "clasica"
     },
     {
       "id": 9,
@@ -151,7 +151,7 @@
       "ingredients": "Carne ahumada, salsa barbacoa, cebolla morada, encurtidos, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Sandwich",
+      "tipo": "sandwich",
       "id": 15
     },
     {
@@ -162,7 +162,7 @@
       "ingredients": "Pechuga de pollo a la parrilla, lechuga, tomate, mayonesa, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo":"Sandwich",
+      "tipo":"sandwich",
       "id": 16
     },
     {
@@ -173,7 +173,7 @@
       "ingredients": "Jamón, cerdo asado, queso suizo, mostaza, pepinillos, pan cubano",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Sandwich",
+      "tipo": "sandwich",
       "id": 17
     },
     {
@@ -184,7 +184,7 @@
       "ingredients": "Carne en conserva, sauerkraut, queso suizo, salsa rusa, pan de centeno",
       "price": 1500,
       "valoration": 8,
-      "tipo":"Sandwich",
+      "tipo":"sandwich",
       "id": 18
     },
     {
@@ -195,7 +195,7 @@
       "ingredients": "Pavo asado, bacon, lechuga, tomate, mayonesa, pan de cerveza, pan de molde",
       "price": 1500,
       "valoration": 9,
-      "tipo":"Sandwich",
+      "tipo":"sandwich",
       "id": 19
     },
     {
@@ -206,7 +206,7 @@
       "ingredients": "Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
       "price": 3500,
       "valoration": "9",
-      "tipo": "Sin TACC",
+      "tipo": "sintacc",
       "id": 20
     },
     {
@@ -217,7 +217,7 @@
       "ingredients": "Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
       "price": 2500,
       "valoration": "10",
-      "tipo": "Sin TACC",
+      "tipo": "sintacc",
       "id": 21
     },
     {
@@ -228,7 +228,7 @@
       "ingredients": "Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
       "price": 2200,
       "valoration": "10",
-      "tipo": "Sin TACC",
+      "tipo": "sintacc",
       "id": 22
     },
     {
@@ -239,7 +239,7 @@
       "ingredients": "Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
       "price": 2700,
       "valoration": "10",
-      "tipo":"Sin TACC",
+      "tipo":"sintacc",
       "id": 23
     },
     {
@@ -250,7 +250,7 @@
       "ingredients": "Mezcla de quesos, mantequilla, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Sandwich",
+      "tipo": "sandwich",
       "id": 24
     },
     {
@@ -261,7 +261,7 @@
       "ingredients": "Bacon, lechuga, tomate, mayonesa, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Sandwich",
+      "tipo": "sandwich",
       "id": 25
     },
     {
@@ -272,7 +272,7 @@
       "ingredients": "Salchicha bratwurst, cebolla caramelizada, mostaza, pan de cerveza",
       "price": 1500,
       "valoration": 7,
-      "tipo": "Sandwich",
+      "tipo": "sandwich",
       "id": 26
     },
     {
@@ -283,7 +283,7 @@
       "ingredients": "Filete de pescado frito, lechuga, tomate, salsa tártara, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Sandwich",
+      "tipo": "sandwich",
       "id": 27
     },
     {
@@ -294,7 +294,7 @@
       "ingredients": "Verduras asadas, queso de cabra, pesto, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Sandwich",
+      "tipo": "sandwich",
       "id": 28
     },
     {
@@ -306,7 +306,7 @@
       "ingredients": "hongos shitakes, salsa cevichera de ají amarillo, aceite de cilantro, palta, maíz cancha, coral de boniato",
       "price": 2500,
       "valoration": 2,
-      "tipo": "Vegetariana"
+      "tipo": "vegetariana"
     },
     {
       "id": 31,
@@ -317,7 +317,7 @@
       "ingredients": "berenjena asada, miel de caña y miso, hummus de garbanzo, furikake, aceite pimentón picante, ensalada",
       "price": 2800,
       "valoration": 3,
-      "tipo":  "Vegetariana"
+      "tipo":  "vegetariana"
     },
     {
       "id": 32,
@@ -328,7 +328,7 @@
       "ingredients": "hongos, aceite de trufa, mozzarella de cajú, verdeo, arroz al vino blanco",
       "price": 3200,
       "valoration": 4,
-      "tipo": "Vegetariana"
+      "tipo": "vegetariana"
     },
     {
       "id": 33,
@@ -339,7 +339,7 @@
       "ingredients": "lasaña de berenjena, boloñesa de hongos, bechamel de papa, tomate, ensalada verde, vinagreta de tamarindo",
       "price": 3400,
       "valoration": 5,
-      "tipo": "Vegetariana"
+      "tipo": "vegetariana"
     },
     {
       "id": 34,
@@ -350,7 +350,7 @@
       "ingredients": "Milanesa de portobello, pan lactal de papa, coleslaw, pepino encurtido, salsa tonkapsu, papas en hilos",
       "price": 2600,
       "valoration": 4,
-      "tipo": "Vegetariana"
+      "tipo": "vegetariana"
     },
     {
       "id": 35,
@@ -361,7 +361,7 @@
       "ingredients": "salsa de tomate, queso a base de cajú, pesto, albahaca",
       "price": 3700,
       "valoration": 4,
-      "tipo":  "Vegetariana"
+      "tipo":  "vegetariana"
     },
     {
       "id": 36,
@@ -372,7 +372,7 @@
       "ingredients": "Tomates secos maserados en tsu, queso de cajú, palta, coronado con salsa pesto de semillas de calabaza",
       "price": 3200,
       "valoration": 3,
-      "tipo": "Vegetariana"
+      "tipo": "vegetariana"
     },
     {
       "id": 37,
@@ -383,7 +383,7 @@
       "ingredients": "crema de cajú, hongos asados, cebolla caramlizada, romero y oliva",
       "price": 3800,
       "valoration": 5,
-      "tipo":  "Vegetariana"
+      "tipo":  "vegetariana"
     },
     {
       "id": 38,
@@ -394,7 +394,7 @@
       "ingredients": "lentejas, zapallo rostizado, salsa harissa de ají panca, naranjas a vivo, almendras tostadas, queso tipo cabra, palta",
       "price": 2800,
       "valoration": 4,
-      "tipo":  "Vegetariana"
+      "tipo":  "vegetariana"
     },
     {
       "id": 39,
@@ -405,7 +405,40 @@
       "ingredients": "rellenos de arveja, shio koji, salsa marinara, parmesano raw.",
       "price": 3600,
       "valoration": 5,
-      "tipo":  "Vegetariana"
+      "tipo":  "vegetariana"
+    },
+    {
+      "title": "Vino Tinto Green Wine",
+      "category": "Vino",
+      "img": "https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg",
+      "description": "Color rojo violáceo intenso. De complejos aromas a frutas rojas, con delicados toques de madera. Suave en boca, equilibrado, con notas de ciruelas y guindas. Ideal para acompañar carnes rojas, pastas o pescados y carnes blancas con salsas especiadas",
+      "ingredients": "Calorías 85, Grasas totales 0 g, Ácidos grasos saturados 0 g, Colesterol 0 mg, Sodio 4 mg, Potasio 127 mg, Carbohidratos 2.6 g, Fibra alimentaria 0 g, Azúcares 0.6 g, Proteínas 0.1 g, Vitamina C 0 mg, Calcio 8 mg, Hierro 0.5 mg, Vitamina D 0 IU, Vitamina B6 0.1 mg, Vitamina B12 0 µg, Magnesio 12 mg",
+      "price": "1200",
+      "valoration": "10",
+      "tipo": "bebida",
+      "id": 40
+    },
+    {
+      "id": 41,
+      "title": "Milanesa con pure",
+      "category": "Menu",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Las clásicas y siempre ricas milanesas de carne acompañadas con puré. Elegidas por toda la familia.",
+      "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
+      "price": "2200",
+      "valoration": "8",
+      "tipo": "clasica"
+    },
+    {
+      "title": "Choripan",
+      "category": "Sándwich",
+      "img": "https://t2.uc.ltmcdn.com/es/posts/7/7/5/como_hacer_choripan_42577_orig.jpg",
+      "description": "El mejor choripan, para chuparse los dedos",
+      "ingredients": "Chorizo, pan, verdeo, salsa criolla",
+      "price": "1200",
+      "valoration": "8",
+      "tipo": "sandwich",
+      "id": 42
     }
   ],
   "users": [
@@ -448,6 +481,33 @@
       "user": "pedroramirez",
       "password": "mipassword123",
       "age": "1993-07-05"
+    },
+    {
+      "id": 7,
+      "name": "Ana",
+      "lastName": "Martínez",
+      "user": "anamartinez",
+      "email": "juan@jsa.com",
+      "password": "mi_contraseña",
+      "age": "1988-11-30"
+    },
+    {
+      "name": "Carla",
+      "lastName": "Arean",
+      "user": "CAA2782",
+      "email": "juan@jsa.com",
+      "password": "contraseña123",
+      "age": "1979-12-12",
+      "id": 9
+    },
+    {
+      "name": "Carla Andrea",
+      "lastName": "Arean",
+      "user": "CAA2782",
+      "email": "juan@jsa.com",
+      "password": "CAA27821713",
+      "age": "1979-12-12",
+      "id": 10
     }
   ]
 }
