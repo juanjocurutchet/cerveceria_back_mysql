@@ -406,9 +406,6 @@
       "price": 3600,
       "valoration": 5,
       "tipo":  "Vegetariana"
-      "price": "3600",
-      "valoration": "5",
-      "tipo": "vegetariana"
     },
     {
       "title": "Vino Tinto Green Wine",
@@ -430,7 +427,7 @@
       "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
       "price": "2200",
       "valoration": "8",
-      "tipo": "clasica"
+      "tipo": "Clasica"
     },
     {
       "title": "Choripan",
@@ -440,7 +437,7 @@
       "ingredients": "Chorizo, pan, verdeo, salsa criolla",
       "price": "1200",
       "valoration": "8",
-      "tipo": "sandwich",
+      "tipo": "Sandwich",
       "id": 42
     }
   ],
