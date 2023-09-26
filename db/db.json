@@ -8,7 +8,7 @@
       "ingredients": "planchas de ravioles de verdura, cebollitas, diente ajo, ají pimiento morrón rojo, tomate",
       "price": "1500",
       "valoration": "8",
-      "tipo": "carne",
+      "tipo": "clasica",
       "id": 4
     },
     {
@@ -19,7 +19,7 @@
       "ingredients": "Arroz de grano largo, Tomate, Pimiento rojo, Pimiento amarillo, Cebolleta, Judías verdes, Maíz, Aceite de oliva virgen, Sal, Pimienta, Salsa de soja, Zumo de lima, Perejil fresco",
       "price": 1200,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "clasica",
       "id": 5
     },
     {
@@ -31,7 +31,7 @@
       "ingredients": "Aceite, Caldo pollo, Mostaza, Orégano, Ajo, Ají, Pollo",
       "price": 2200,
       "valoration": 8,
-      "tipo": "Comida"
+      "tipo": "clasica"
     },
     {
       "id": 7,
@@ -42,7 +42,7 @@
       "ingredients": "Harina, Huevos, Espina, Morrón rojo, Cebolla, Queso Rallado, Huevo, Sal, Pimienta, Orégano, Aceite",
       "price": 2500,
       "valoration": 8,
-      "tipo": "Comida"
+      "tipo": "clasica"
     },
     {
       "title": "Ñoquis a la bolognesa",
@@ -64,17 +64,6 @@
       "ingredients": "La EX1 IPA Sevebrau, es una cerveza de estilo americano, en su elaboración se utilizan 4 tipos de malta, pale, munich, cristal y malta caramelo. Y 3 tipos de lúpulos americanos, cascade, centenial y citra. La razón de su potente aroma a lúpulo es que lleva 14 kg de lúpulo por cada 1.000 litros de cerveza.",
       "price": 500,
       "valoration": "9",
-      "tipo": "bebida"
-    },
-    {
-      "id": 10,
-      "title": "Agua Mineral Green Water",
-      "category": "Agua",
-      "img": "https://static.vecteezy.com/system/resources/previews/002/618/240/large_2x/pouring-purified-fresh-drink-water-from-the-bottle-on-wooden-table-and-mineral-water-health-care-concept-photo.jpg",
-      "description": "El agua mineral de manantial Green Water, nace de un proceso de filtración natural, infiltrándose al corazón de la montaña y reposando en sus profundidades hace miles de años, para luego surgir pura y mineralizada",
-      "ingredients": "Contiene sodio, potasio, calcio, magnesio, cloro, azufre y fósforo, con grado de mineralización inferior a 1,5 gramos por litro.",
-      "price": 500,
-      "valoration": "10",
       "tipo": "bebida"
     },
     {
@@ -129,7 +118,7 @@
       "ingredients": "Carne ahumada, salsa barbacoa, cebolla morada, encurtidos, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 15
     },
     {
@@ -140,19 +129,8 @@
       "ingredients": "Pechuga de pollo a la parrilla, lechuga, tomate, mayonesa, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 16
-    },
-    {
-      "title": "Sándwich Cubano",
-      "category": "Sándwich",
-      "img": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_pv5iam8f1g_iStock-473336754-1024x683.jpg",
-      "description": "Un sándwich clásico con jamón, cerdo asado, queso suizo, mostaza y pepinillos, servido en pan cubano.",
-      "ingredients": "Jamón, cerdo asado, queso suizo, mostaza, pepinillos, pan cubano",
-      "price": 1500,
-      "valoration": 8,
-      "tipo": "Comida",
-      "id": 17
     },
     {
       "title": "Sándwich Reuben",
@@ -162,7 +140,7 @@
       "ingredients": "Carne en conserva, sauerkraut, queso suizo, salsa rusa, pan de centeno",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 18
     },
     {
@@ -173,7 +151,7 @@
       "ingredients": "Pavo asado, bacon, lechuga, tomate, mayonesa, pan de cerveza, pan de molde",
       "price": 1500,
       "valoration": 9,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 19
     },
     {
@@ -184,7 +162,7 @@
       "ingredients": "Harina panificable sin gluten, levadura fresca, aceite de oliva, sal y agua",
       "price": 3500,
       "valoration": "9",
-      "tipo": "Comida",
+      "tipo": "sintacc",
       "id": 20
     },
     {
@@ -195,7 +173,7 @@
       "ingredients": "Carne picada, cebolla, romero fresco, tomillo, sal, pimienta, pan sin gluten, lechuga, tomate y aceite de oliva",
       "price": 2500,
       "valoration": "10",
-      "tipo": "Comida",
+      "tipo": "sintacc",
       "id": 21
     },
     {
@@ -206,7 +184,7 @@
       "ingredients": "Carne vacuna, huevos, ajo y perejil, pan rallado sin TACC, papas, aceite de oliva",
       "price": 2200,
       "valoration": "10",
-      "tipo": "Comida",
+      "tipo": "sintacc",
       "id": 22
     },
     {
@@ -217,7 +195,7 @@
       "ingredients": "Meluza fileteada, huevos, perejir y ajo, pana rallado sin TACC, papas, aceite de girasol",
       "price": 2700,
       "valoration": "10",
-      "tipo": "Comida",
+      "tipo": "sintacc",
       "id": 23
     },
     {
@@ -228,7 +206,7 @@
       "ingredients": "Mezcla de quesos, mantequilla, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 24
     },
     {
@@ -239,7 +217,7 @@
       "ingredients": "Bacon, lechuga, tomate, mayonesa, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 25
     },
     {
@@ -250,7 +228,7 @@
       "ingredients": "Salchicha bratwurst, cebolla caramelizada, mostaza, pan de cerveza",
       "price": 1500,
       "valoration": 7,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 26
     },
     {
@@ -261,7 +239,7 @@
       "ingredients": "Filete de pescado frito, lechuga, tomate, salsa tártara, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 27
     },
     {
@@ -272,129 +250,118 @@
       "ingredients": "Verduras asadas, queso de cabra, pesto, pan de cerveza",
       "price": 1500,
       "valoration": 8,
-      "tipo": "Comida",
+      "tipo": "sandwich",
       "id": 28
     },
     {
       "id": 30,
       "title": "Ceviche Green Beer",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2022/11/rpm2Recurso-2.jpg",
+      "img": "https://www.thatsmags.com/image/view/201707/buenaonda.jpg",
       "description": "Los ceviches más habituales suelen ser de pescados y mariscos, pero aquí te proponemos un exquisito ceviche, de hongos y vegetales.",
       "ingredients": "hongos shitakes, salsa cevichera de ají amarillo, aceite de cilantro, palta, maíz cancha, coral de boniato",
       "price": 2500,
       "valoration": 2,
-      "tipo": "Comida"
+      "tipo": "vegetariana"
     },
     {
       "id": 31,
-      "title": "Berenjena Asada con Hummus de Garbanzo.",
+      "title": "Berenjena Asada con Hummus de Garbanzo",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9429.jpg",
+      "img": "https://deliciaskitchen.b-cdn.net/wp-content/uploads/2015/12/Berenjenas-asadas-con-hummus-y-menta_-1170x780.jpg",
       "description": "Estas berenjenas asadas con hummus son un plato ligero y saludable",
       "ingredients": "berenjena asada, miel de caña y miso, hummus de garbanzo, furikake, aceite pimentón picante, ensalada",
       "price": 2800,
       "valoration": 3,
-      "tipo": "Comida"
+      "tipo": "vegetariana"
     },
     {
-      "id": 32,
-      "title": "Risotto de hongos trufado.",
+      "title": "Risotto de hongos trufado",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_5971-2048x1365.jpeg",
+      "img": "https://trufato.es/wp-content/uploads/2016/10/shtck_391941721-risotto.jpg",
       "description": "El aceite de trufa le dará el punto elegante a un arroz blanco convencional que disfrutará de la cremosidad típica de cualquier risotto. Las hongos serán los encargados de ofrecer un nombre propio y un sabor muy conocido a este arroz.",
       "ingredients": "hongos, aceite de trufa, mozzarella de cajú, verdeo, arroz al vino blanco",
       "price": 3200,
       "valoration": 4,
-      "tipo": "Comida"
+      "tipo": "vegetariana",
+      "id": 32
     },
     {
-      "id": 33,
-      "title": "Mousakka Griega.",
+      "title": "Mousakka Griega",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9455-1868x2048.jpg",
+      "img": "https://www.lasrecetasfacilesdemaria.com/wp-content/uploads/2014/11/musaka-vegetariana-griega.jpg",
       "description": "El musaka o musaca es un plato tradicional de los Balcanes y el Medio Oriente hecho a base de berenjena. La versión griega, que es la más conocida internacionalmente",
       "ingredients": "lasaña de berenjena, boloñesa de hongos, bechamel de papa, tomate, ensalada verde, vinagreta de tamarindo",
       "price": 3400,
       "valoration": 5,
-      "tipo": "Comida"
+      "tipo": "vegetariana",
+      "id": 33
     },
     {
-      "id": 34,
       "title": "Katsu Sandwich",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/22112022-IMG_8915-1-scaled-e1670876642886-2048x1270.jpg",
+      "img": "https://www.gastrolabweb.es/u/fotografias/m/2022/7/21/f960x540-12551_86626_0.jpg",
       "description": "Plato típico de la gastronomía japonesa en su versión vegetariana",
       "ingredients": "Milanesa de portobello, pan lactal de papa, coleslaw, pepino encurtido, salsa tonkapsu, papas en hilos",
       "price": 2600,
       "valoration": 4,
-      "tipo": "Comida"
+      "tipo": "vegetariana",
+      "id": 34
     },
     {
-      "id": 35,
       "title": "Pizza Margarita",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9797-scaled-e1670860615845.jpg",
+      "img": "https://www.hogarmania.com/archivos/202303/pizza-margarita-portada-848x477x80xX.jpg",
       "description": "La madre de todas las pizzas, la pizza Margarita , tomate, queso, pesto albahaca fresca y aceite de oliva virgen extra, sencilla y deliciosa",
       "ingredients": "salsa de tomate, queso a base de cajú, pesto, albahaca",
       "price": 3700,
       "valoration": 4,
-      "tipo": "Comida"
+      "tipo": "vegetariana",
+      "id": 35
     },
     {
-      "id": 36,
       "title": "Rolls Capresse",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/rpmRecurso-2.jpg",
+      "img": "https://www.threeolivesbranch.com/wp-content/uploads/2019/01/caprese-pinwheel-roll-ups-threeolivesbranch-6-768x1024.jpg",
       "description": "Este pesto de 5 ingredientes pega fuerte. Con un potente sabor mediterráneo.",
       "ingredients": "Tomates secos maserados en tsu, queso de cajú, palta, coronado con salsa pesto de semillas de calabaza",
       "price": 3200,
       "valoration": 3,
-      "tipo": "Comida"
+      "tipo": "vegetariana",
+      "id": 36
     },
     {
-      "id": 37,
       "title": "Pizza Funghi",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2023/07/IMG-8016-1-2048x1084.jpg",
+      "img": "https://ohmydish.com/wp-content/uploads/2017/07/Pizza-funghi-square.jpg",
       "description": "Una pizza diferente a base de hongos, cebolla caramelizada y crema de Caju",
       "ingredients": "crema de cajú, hongos asados, cebolla caramlizada, romero y oliva",
       "price": 3800,
       "valoration": 5,
-      "tipo": "Comida"
+      "tipo": "vegetariana",
+      "id": 37
     },
     {
-      "id": 38,
       "title": "Ensalada de la tierra",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2022/12/08122022-IMG_9553-scaled-e1670877558211.jpg",
+      "img": "https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/col-recipies/future-menus-recipies/RECETA5-CASTELL-1200X709-px.png",
       "description": "Un plato fresco, natural, liviano y sobre todo muy nutritivo",
       "ingredients": "lentejas, zapallo rostizado, salsa harissa de ají panca, naranjas a vivo, almendras tostadas, queso tipo cabra, palta",
       "price": 2800,
       "valoration": 4,
-      "tipo": "Comida"
+      "tipo": "vegetariana",
+      "id": 38
     },
     {
       "id": 39,
       "title": "Tortelones Marinara",
       "category": "Comida Vegetariana",
-      "img": "https://raizplantmood.ar/wp-content/uploads/2023/06/IMG_6028-2048x1365.jpeg",
+      "img": "https://www.acouplecooks.com/wp-content/uploads/2021/03/Cheese-Tortellini-011.jpg",
       "description": "Exquisita pasta rellena con salsa marinara y parmesano",
       "ingredients": "rellenos de arveja, shio koji, salsa marinara, parmesano raw.",
-      "price": "3600",
-      "valoration": "5",
+      "price": 3600,
+      "valoration": 5,
       "tipo": "vegetariana"
-    },
-    {
-      "title": "Vino Tinto Green Wine",
-      "category": "Vino",
-      "img": "https://www.vinetur.com/imagenes/2019/agosto/5/vino_termometro.jpg",
-      "description": "Color rojo violáceo intenso. De complejos aromas a frutas rojas, con delicados toques de madera. Suave en boca, equilibrado, con notas de ciruelas y guindas. Ideal para acompañar carnes rojas, pastas o pescados y carnes blancas con salsas especiadas",
-      "ingredients": "Calorías 85, Grasas totales 0 g, Ácidos grasos saturados 0 g, Colesterol 0 mg, Sodio 4 mg, Potasio 127 mg, Carbohidratos 2.6 g, Fibra alimentaria 0 g, Azúcares 0.6 g, Proteínas 0.1 g, Vitamina C 0 mg, Calcio 8 mg, Hierro 0.5 mg, Vitamina D 0 IU, Vitamina B6 0.1 mg, Vitamina B12 0 µg, Magnesio 12 mg",
-      "price": "1200",
-      "valoration": "10",
-      "tipo": "bebida",
-      "id": 40
     },
     {
       "id": 41,
@@ -417,6 +384,28 @@
       "valoration": "8",
       "tipo": "sandwich",
       "id": 42
+    },
+    {
+      "id": 43,
+      "title": "Agua Mineral Green Water",
+      "category": "Agua",
+      "img": "https://static.vecteezy.com/system/resources/previews/002/618/240/large_2x/pouring-purified-fresh-drink-water-from-the-bottle-on-wooden-table-and-mineral-water-health-care-concept-photo.jpg",
+      "description": "El agua mineral de manantial Green Water, nace de un proceso de filtración natural, infiltrándose al corazón de la montaña y reposando en sus profundidades hace miles de años, para luego surgir pura y mineralizada",
+      "ingredients": "Contiene sodio, potasio, calcio, magnesio, cloro, azufre y fósforo, con grado de mineralización inferior a 1,5 gramos por litro.",
+      "price": "500",
+      "valoration": "10",
+      "tipo": "bebida"
+    },
+    {
+      "id": 44,
+      "title": "Sándwich Cubano",
+      "category": "Sándwich",
+      "img": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_pv5iam8f1g_iStock-473336754-1024x683.jpg",
+      "description": "Un sándwich clásico con jamón, cerdo asado, queso suizo, mostaza y pepinillos, servido en pan cubano.",
+      "ingredients": "Jamón, cerdo asado, queso suizo, mostaza, pepinillos, pan cubano",
+      "price": "2000",
+      "valoration": "8",
+      "tipo": "sandwich"
     }
   ],
   "users": [
