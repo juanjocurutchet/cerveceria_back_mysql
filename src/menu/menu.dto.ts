@@ -1,4 +1,4 @@
-import { IsString} from 'class-validator';
+import { IsNumber, IsString} from 'class-validator';
 
 export class MenuDto {
     @IsString()
@@ -11,10 +11,10 @@ export class MenuDto {
     description: string;
     @IsString()
     ingredients: string;
-    @IsString()
-    price: string;
-    @IsString()
-    valoration: string;
+    @IsNumber()
+    price: number;
+    @IsNumber()
+    valoration: number;
     @IsString()
     tipo: string;
 }
