@@ -1,13 +1,35 @@
 {
   "menu": [
     {
+      "title": "Milanesa con pure",
+      "category": "Menu",
+      "img": "https://www.indega.com.py/primicia/wp-content/uploads/2022/04/pure-de-papa-con-pollo-broaster-large-qlJiPE4lyS.jpeg",
+      "description": "Las clásicas y siempre ricas milanesas de carne acompañadas con puré. Elegidas por toda la familia.",
+      "ingredients": "Paleta, pan rallado, provenzal, huevo, sal, (papa o calabaza)",
+      "price": 2200,
+      "valoration": 8,
+      "tipo": "clasica",
+      "id": 2
+    },
+    {
+      "title": "Ñoquis con Salsa Boloñesa",
+      "category": "Menu",
+      "img": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg",
+      "description": "Cómo hacer ñoquis con salsa boloñesa de manera fácil y con fotos del paso a paso. Receta de ñoquis o gnocchi de patata con salsa boloñesa.",
+      "ingredients": "albahaca, salsa boloñesa, papa, harina",
+      "price": 1700,
+      "valoration": 8,
+      "tipo":"clasica",
+      "id": 3
+    },
+    {
       "title": "Ravioles con Salsa Boloñesa",
       "category": "Menu",
       "img": "https://img-global.cpcdn.com/recipes/4d7d7d352d34d5bb/1200x630cq70/photo.jpg",
       "description": "Ravioles a la Boloñesa. Receta de origen italiano de la región de la Boloña, caracterizada por la salsa de carne. La pasta de la masa y el nombre se ha internacionalizado aunque el origen esta en el Celeste Imperio de China.",
       "ingredients": "planchas de ravioles de verdura, cebollitas, diente ajo, ají pimiento morrón rojo, tomate",
-      "price": "1500",
-      "valoration": "8",
+      "price": 1500,
+      "valoration": 7,
       "tipo": "clasica",
       "id": 4
     },
@@ -45,15 +67,15 @@
       "tipo": "clasica"
     },
     {
-      "title": "Ñoquis a la bolognesa",
+      "id": 8,
+      "title": "Papas con pollo al verdeo",
       "category": "Menu",
-      "img": "https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg",
-      "description": "Cómo hacer ñoquis con salsa boloñesa de manera fácil y con fotos del paso a paso. Receta de ñoquis o gnocchi de patata con salsa boloñesa.",
-      "ingredients": "albahaca, salsa boloñesa, papa, harina",
-      "price": "1700",
-      "valoration": "8",
-      "tipo": "clasica",
-      "id": 8
+      "img": "https://img-global.cpcdn.com/recipes/100c79faa15ed5db/1200x630cq70/photo.jpg",
+      "description": "En esta receta, podemos tirar de 'wok' para saltear las verduras y luego incorporar el arroz cocido, pero también te sirve una sartén grande, con capacidad para cocinar todos los ingredientes. Lo bueno de este arroz es que puedes ponerle las verduras que más te gusten.",
+      "ingredients": "Papas, Cebollas de verdeo, Crema de leche, Caldito de verdura, Aceite, Sal, Pimienta",
+      "price": 2800,
+      "valoration": 8,
+      "tipo": "clasica"
     },
     {
       "id": 9,
@@ -131,6 +153,17 @@
       "valoration": 8,
       "tipo": "sandwich",
       "id": 16
+    },
+    {
+      "title": "Sándwich Cubano",
+      "category": "Sándwich",
+      "img": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_pv5iam8f1g_iStock-473336754-1024x683.jpg",
+      "description": "Un sándwich clásico con jamón, cerdo asado, queso suizo, mostaza y pepinillos, servido en pan cubano.",
+      "ingredients": "Jamón, cerdo asado, queso suizo, mostaza, pepinillos, pan cubano",
+      "price": 1500,
+      "valoration": 8,
+      "tipo": "sandwich",
+      "id": 17
     },
     {
       "title": "Sándwich Reuben",
@@ -414,7 +447,6 @@
       "name": "Juan",
       "lastName": "Pérez",
       "user": "juanperez",
-      "email": "juan@jsa.com",
       "password": "contraseña123",
       "age": "1990-05-15"
     },
@@ -423,7 +455,6 @@
       "name": "María",
       "lastName": "González",
       "user": "mariagonzalez",
-      "email": "juan@jsa.com",
       "password": "mipassword",
       "age": "1985-08-20"
     },
@@ -432,7 +463,6 @@
       "name": "Carlos",
       "lastName": "López",
       "user": "carloslopez",
-      "email": "juan@jsa.com",
       "password": "clave_secreta",
       "age": "1995-02-10"
     },
@@ -441,7 +471,6 @@
       "name": "Ana",
       "lastName": "Martínez",
       "user": "anamartinez",
-      "email": "juan@jsa.com",
       "password": "mi_contraseña",
       "age": "1988-11-30"
     },
@@ -450,7 +479,6 @@
       "name": "Pedro",
       "lastName": "Ramírez",
       "user": "pedroramirez",
-      "email": "juan@jsa.com",
       "password": "mipassword123",
       "age": "1993-07-05"
     },
