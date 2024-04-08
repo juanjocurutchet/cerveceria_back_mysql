@@ -1,49 +1,41 @@
-import {
-  Body,
-  Controller,
-  Delete,
-  Get,
-  Param,
-  Post,
-  Query,
-  HttpCode,
-  Put,
-  ParseIntPipe,
-  HttpStatus
-} from '@nestjs/common';
+import { Controller, Get, Post, Put, Delete, Body, Param } from '@nestjs/common';
 import { MenuService } from './menu.service';
-import { MenuDto } from './menu.dto';
+import { CreateMenuDto } from './dto/create-menu.dto';
+import { UpdateMenuDto } from './dto/update-menu.dto';
 
-@Controller('menu/')
+
+
+@Controller('menu')
 export class MenuController {
   constructor(private readonly menuService: MenuService) {}
- @Get('/:id')
-@HttpCode(200)
-  getMenuById(@Param('id', new ParseIntPipe({
-    errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE
-  })) id: number): Promise<any> {
-    return this.menuService.getMenuById(id);
-  }
+
   @Get()
-@HttpCode(200)
-  getMenuSearh(@Query() query: any): Promise<MenuDto[]> {
-    return this.menuService.getMenuSearch(query);
+  getAllMenu() {
+    return this.menuService.getAllMenu();
+  }
+
+  @Get('search/:category')
+  getMenuByCategory(@Param('category') category: string) {
+    return this.menuService.getMenuByCategory(category);
+  }
+
+  @Get('search/:ingredientes')
+  searchMenuByIngredient(@Param('ingredientes') ingredientes: string) {
+    return this.menuService.searchMenuByIngredient(ingredientes);
   }
 
   @Post()
-@HttpCode(201)
-  createMenu(@Body() menuDto: MenuDto): Promise<any> {
-    return this.menuService.createMenu(menuDto);
+  createMenu(@Body() createMenu: CreateMenuDto) {
+    return this.menuService.createMenu(createMenu);
   }
-  @Delete('/:id')
-  @HttpCode(204)
-  deleteMenu(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number): Promise<void> {
+
+  @Put(':id')
+  updateMenu(@Param('id') id: number, @Body() updateMenuDto: UpdateMenuDto) {
+    return this.menuService.updateMenu(id, updateMenuDto);
+  }
+
+  @Delete(':id')
+  deleteMenu(@Param('id') id: number) {
     return this.menuService.deleteMenu(id);
   }
-
-  @Put('/:id')
-
-updateMenuById(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE}) ) id: number, @Body() menuDto: MenuDto): Promise<any> {
-return this.menuService.updateMenuById(id, menuDto);
-}
 }

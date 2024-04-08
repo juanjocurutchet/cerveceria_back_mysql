@@ -1,78 +1,34 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
-import { UserDto } from './user.dto';
-import { MenuDto } from 'src/menu/menu.dto';
-const BASE_URL = 'http://localhost:3031/users/';
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { Usuario } from './users.entity';
+import { CreateUserDto } from './dto/create-user.dto';
+import { UpdateUserDto } from './dto/update-user.dto';
+
+
 @Injectable()
 export class UsersService {
-    async getUserById(id: number): Promise<any> {
-        const res = await fetch(BASE_URL + id);
-        const parsed = await res.json();
-        if (!Object.keys(parsed).length) throw new NotFoundException(`Usuario con id ${id} no existe`);
-        return parsed;
-    }
+  constructor(
+    @InjectRepository(Usuario)
+    private readonly usuarioRepository: Repository<Usuario>,
+  ) {}
 
-    async getUsers(): Promise<any> {
-        const res = await fetch(BASE_URL);
-        if (!res.ok) throw new BadRequestException("Fallo el fetch")
-        const parsed = await res.json();
-        return parsed;
-    }
+  getAllUsuarios() {
+    return this.usuarioRepository.find();
+  }
 
-    async getUsersByUser(userActual: string): Promise<any> {
-        const res = await this.getUsers();
-        const parsed = res.find((user) => user.user === userActual);
-        if (!parsed) throw new NotFoundException({ message: `No existe el usuario ${userActual}` })
-        return parsed;
-    }
+  createUsuario(createUsuarioDto: CreateUserDto) {
+    const newUsuario = this.usuarioRepository.create(createUsuarioDto);
+    return this.usuarioRepository.save(newUsuario);
+  }
 
-    async createUser(userActual: UserDto): Promise<UserDto> {
-        const id = await this.setId();
-        const { name, lastName, user, email, password, age } = userActual;
-        const newUser = { id, name, lastName, user, email, password, age };
-        const res = await fetch(BASE_URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(newUser),
-        });
-        const parsed = res.json();
-        return parsed;
-    }
+  async updateUsuario(id: number, updateUsuarioDto: UpdateUserDto) {
+    await this.usuarioRepository.update(id, updateUsuarioDto);
+    return this.usuarioRepository.findOne({ where: { id } });
+  }  
 
-    async deleteUser(id: number): Promise<void> {
-        const comprobacion = await this.getUserById(id);
-        const res = await fetch(BASE_URL + id, {
-            method: 'DELETE',
-        });
-        if (!res.ok) throw new Error('Hubo un problema al borrar el usuario');
-    }
-
-    private async setId(): Promise<number> {
-        const users = await this.getUsers();
-        const id = users.pop().id + 1;
-        return id;
-    }   
-
-    async updateUserById(id: number, userDto: UserDto): Promise<any> {
-        const isUser = await this.getUserById(id);
-                  const updatedUser = {            
-                name: userDto.name,
-                lastName: userDto.lastName,
-                user: userDto.user,
-                password: userDto.password,
-                age: userDto.age,            
-            };
-            
-            const res = await fetch(BASE_URL + id, {
-                method: 'PUT',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(updatedUser),
-            });
-            const parsed = await res.json();
-            return parsed;
-        }
-   
+  async deleteUsuario(id: number) {
+    return this.usuarioRepository.delete(id);
+  }
 }
+
