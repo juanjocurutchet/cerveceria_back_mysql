@@ -1,38 +1,29 @@
-import { Body, Controller, Get, Param, Post, HttpCode, Query, Delete,Put, ParseIntPipe, HttpStatus } from '@nestjs/common';
+import { Controller, Get, Post, Put, Delete, Body, Param } from '@nestjs/common';
 import { UsersService } from './users.service';
-import { UserDto } from './user.dto';
+import { CreateUserDto } from './dto/create-user.dto';
+import { UpdateUserDto } from './dto/update-user.dto';
 
-@Controller('users/')
+@Controller('users')
 export class UsersController {
-    constructor(private readonly userService: UsersService) { }
-    @Get('/:id')
-    getUserById(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number): Promise<any> {
-        return this.userService.getUserById(id)
-    }
+  constructor(private readonly usuarioService: UsersService) {}
 
+  @Get()
+  getAllUsuarios() {
+    return this.usuarioService.getAllUsuarios();
+  }
 
-    @Get()
-    getUsers(
-        @Query('user') user?: string
-    ): Promise<any> {
-        if (user) return this.userService.getUsersByUser(user);
-        return this.userService.getUsers();
-    }
-    @Post()
-    createUser(@Body() userDto: UserDto): Promise<any> {
-        return this.userService.createUser(userDto);
-    }
-    
-    @Delete('/:id')
-    @HttpCode(204)
-    deleteUser(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number): Promise<void> {
-        return this.userService.deleteUser(id);
-    }
-    @Put('/:id')
-    updateUserById(@Param('id', new ParseIntPipe({errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE})) id: number, @Body() userDto: UserDto): Promise<any> {
-        return this.userService.updateUserById(id, userDto);
-    }
+  @Post()
+  createUsuario(@Body() createUsuarioDto: CreateUserDto) {
+    return this.usuarioService.createUsuario(createUsuarioDto);
+  }
 
+  @Put(':id')
+  updateUsuario(@Param('id') id: number, @Body() updateUsuarioDto: UpdateUserDto) {
+    return this.usuarioService.updateUsuario(id, updateUsuarioDto);
+  }
 
-
+  @Delete(':id')
+  deleteUsuario(@Param('id') id: number) {
+    return this.usuarioService.deleteUsuario(id);
+  }
 }
